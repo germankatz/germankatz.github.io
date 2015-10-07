@@ -205,4 +205,7 @@ a{
 	.title::before{
 		display: none;
 	}
+	.hide{
+		display: none;
+	}
 }
