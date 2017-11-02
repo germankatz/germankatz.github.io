@@ -10,20 +10,42 @@
 		<link href="css/reset.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+		<script type="text/javascript">
+			function dropdown() {
+			    document.getElementById("agro-dropdown").classList.toggle("show");
+			}
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+
+			    var dropdowns = document.getElementsByClassName("dropdown-content");
+			    var i;
+			    for (i = 0; i < dropdowns.length; i++) {
+			      var openDropdown = dropdowns[i];
+			      if (openDropdown.classList.contains('show')) {
+			        openDropdown.classList.remove('show');
+			      }
+			    }
+			  }
+			}
+		</script>
 	</head>
 	<body>
 		<header class="header-bg">
 			<div class="container" align="center">
-				<img src="img/logo_big.png" class="logo-cover">
+				<img src="img/logo_big.png" onclick="dropdown()" class="logo-cover">
 			</div>
 		</header>
 		<nav class="home-nav" align="center">
 			<div class="container-special">
 				<ul class="home-ul">
-					<a href="about-us.html"><li>EMPRESA</li></a>
-					<a href="products.html"><li>AGRO</li></a>
-					<a href="#"><li>LIMPIEZA</li></a>
-					<a href="#"><li>CONTACTO</li></a>
+					<a href="about-us.html" class="home-menu"><li>EMPRESA</li></a>
+					<a href="#" onclick="dropdown()"  class="home-menu dropbtn"><li>AGRO</li></a>
+					<div id="agro-dropdown" class="dropdown-content">
+						<a href="products.html">PRODUCTOS</a>
+						<a href="services.html">SERVICIOS</a>
+					</div>
+					<a href="#" class="home-menu"><li>LIMPIEZA</li></a>
+					<a href="#" class="home-menu"><li>CONTACTO</li></a>
 				</ul>
 			</div>
 		</nav>
