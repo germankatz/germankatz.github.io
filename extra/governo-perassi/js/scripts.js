@@ -7,6 +7,12 @@ $(document).ready(function(){
 		arrows: false
 	});	
 });
+
+$("#cont").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".contact").offset().top
+    }, 1000);
+});
 	
 var fixmeTop = $('.home-nav').offset().top;    // get initial position of the element
 

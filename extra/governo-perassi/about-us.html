@@ -9,17 +9,39 @@
 		<link href="css/reset.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+		<script type="text/javascript">
+			function dropdown() {
+			    document.getElementById("agro-dropdown").classList.toggle("show");
+			}
+			window.onclick = function(event) {
+			  if (!event.target.matches('.dropbtn2')) {
+
+			    var dropdowns = document.getElementsByClassName("dropdown-content");
+			    var i;
+			    for (i = 0; i < dropdowns.length; i++) {
+			      var openDropdown = dropdowns[i];
+			      if (openDropdown.classList.contains('show')) {
+			        openDropdown.classList.remove('show');
+			      }
+			    }
+			  }
+			}
+		</script>
 	</head>
 	<body>
 		<div class="header">
 			<div class="container">
 				<img src="img/logo_min.png" class="logo-head">
 				<ul class="header-ul">
-					<a href="index.html"><li>INICIO</li></a>
-					<a href="#" class="active"><li>EMPRESA</li></a>
-					<a href="products.html"><li>AGRO</li></a>
-					<a href="#"><li>LIMPIEZA</li></a>
-					<a href="#"><li>CONTACTO</li></a>
+					<a href="index.html" class="menu-header"><li>INICIO</li></a>
+					<a href="about-us.html" class="menu-header"><li>EMPRESA</li></a>
+					<a href="#" onclick="dropdown()" class="menu-header dropbtn2"><li>AGRO</li></a>
+					<div id="agro-dropdown" class="dropdown-content2">
+						<a href="products.html">PRODUCTOS</a>
+						<a href="services.html">SERVICIOS</a>
+					</div>
+					<a href="cleaning.html" class="menu-header"><li>LIMPIEZA</li></a>
+					<a href="#contact" class="menu-header" id="cont"><li>CONTACTO</li></a>
 				</ul>
 			</div>
 		</div>
@@ -65,25 +87,28 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 			<div align="center">
 				<h3 class="mid-title">NUESTROS PROOVEDORES</h3>
 				<div class="carousel">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
-					<img src="img/bayern-ex.png">
+					<img src="img/logos/agrinplex.png">
+					<img src="img/logos/bayern.png">
+					<img src="img/logos/donatilio.png">
+					<img src="img/logos/forratec.png">
+					<img src="img/logos/funcional.png">
+					<img src="img/logos/gentos.png">
+					<img src="img/logos/governo.png">
+					<img src="img/logos/illinois.png">
+					<img src="img/logos/ldc.png">
+					<img src="img/logos/morgan.png">
+					<img src="img/logos/nipsa.png">
+					<img src="img/logos/nufarm.png">
+					<img src="img/logos/palo-verde.png">
+					<img src="img/logos/pampero.png">
+					<img src="img/logos/ragt.png">
+					<img src="img/logos/roca-fertil.png">
+					<img src="img/logos/sursem.png">
+					<img src="img/logos/tecnosorgo.png">
+					<img src="img/logos/tobin.png">
+					<img src="img/logos/voran.png">
+					<img src="img/logos/ypf.png">
+					<img src="img/logos/zoovet.png">
 				</div>
 			</div>
 		</div>

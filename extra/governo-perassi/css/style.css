@@ -315,6 +315,7 @@ h2{
 	display: inline-block;
 }
 .title-style1{
+	width: 100%;
 	color: #2C2C2C;
 	font-size: 24px;
 	font-style: bold;
@@ -360,6 +361,16 @@ b{
 	-o-background-size: cover;
 	background-size: cover;
 }
+.limpieza{
+	width: 100%;
+	padding-top: 200px;
+	height: 175px;
+	background: url('../img/limpieza_bg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 .list-style2{
 	float: left;
 	width: 400px;
@@ -372,6 +383,7 @@ b{
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.24);
 }
 .title-style2{
+	width: 100%;
 	color: #2C2C2C;
 	font-size: 16px;
 	font-style: bold;
@@ -394,6 +406,23 @@ b{
 	font-size: 16px;
 	line-height: 120%;
 	display: inline-block;
+}
+.button-link{
+	width: calc(100% - 80px);
+	height: auto;
+	background: #0D9344;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	color: white;
+	float: left;
+	margin: 0 20px 20px 20px;
+	text-decoration: none;
+	border-radius: 40px;
+	-webkit-transition: background 0.3s; /* Safari */
+    transition: background 0.3s;
+}
+.button-link:hover{
+	background: #106B36;
 }
 .clr{
 	clear: both;
