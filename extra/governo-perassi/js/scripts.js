@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('.cotizacion-cereales').load('http://fiddle.jshell.net/qAa4u/show/light #1 '); //#WebPartWPQ9
   	$('.carousel').slick({
 		slidesToShow: 6,
 		slidesToScroll: 3,

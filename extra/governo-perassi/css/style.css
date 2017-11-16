@@ -155,13 +155,24 @@ h3{
 	font-size: 18px;
 	margin-top: 45px;
 }
+.news-seccion{
+	width: 510px;
+	height: 400px;
+	margin-top: 30px;
+}
+.cotizacion{
+	width: 340px;
+	height: 50px;
+	margin-top: 30px;
+	border-radius: 5px;
+	background: #D6D6D6;
+	font-size: 32px;
+	padding-top: 20px;
+}
 #l-section{
 	float: left;
 	width: 340px;
 	margin-left: 80px;
-}
-.home-image{
-	margin-top: 30px;
 }
 #bottom-publ{
 	background: #EEEEEE;
