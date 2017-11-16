@@ -169,6 +169,10 @@ h3{
 	font-size: 32px;
 	padding-top: 20px;
 }
+.cotizacion-cereales{
+	width: 340px;
+	height: auto;
+}
 #l-section{
 	float: left;
 	width: 340px;
@@ -207,7 +211,7 @@ h3{
 .contact{
 	background: #BD5523;
 	width: 100%;
-	height: auto;
+	height: 500px;
 	padding-top: 45px;
 	padding-bottom: 45px;
 }
@@ -216,7 +220,9 @@ h3{
 	font-size: 18px;
 }
 form{
-	margin-top: 10px;
+	margin-top: 30px;
+	float: left;
+    display: inline-block;
 }
 input[type=text]{
 	width: 350px;
@@ -230,8 +236,11 @@ input[type=text]{
 }
 textarea{
 	width: 350px;
+	min-width: 350px;
+	max-width: 350px;
 	padding: 15px;
-	min-height: 100px;
+	min-height: 245px;
+	max-height: 245px;
 	font-size: 14px;
 	margin-top: 15px;
 	background: white;
@@ -242,8 +251,9 @@ textarea{
 .submit{
 	background: #F26826;
 	border: 0;
-	border-radius: 5px;
+	border-radius: 55px;
 	color: white;
+	float: right;
 	margin-top: 15px;
 	font-style: bold;
 	font-size: 14px;
@@ -426,7 +436,7 @@ b{
 	text-align: center;
 	color: white;
 	float: left;
-	margin: 0 20px 20px 20px;
+	margin: 30px; 20px 20px 20px;
 	text-decoration: none;
 	border-radius: 40px;
 	-webkit-transition: background 0.3s; /* Safari */
@@ -437,4 +447,30 @@ b{
 }
 .clr{
 	clear: both;
+}
+.more-info{
+	display: none;
+	position: fixed;
+	width: calc(100% - 80px);
+	padding: 40px;
+	background: #BD5523;
+	z-index: 999;
+    bottom: 0;
+    color: white;
+}
+.more-info h3{
+	color: white;
+	float: left;
+}
+.close{
+	float: right;
+	top: 0;
+	font-weight: bolder;
+	font-size: 30px;
+	cursor: pointer;
+}
+.map{
+	margin-top: 45px;
+	float: right;
+	background: #F26826;
 }

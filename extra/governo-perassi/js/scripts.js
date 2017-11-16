@@ -14,6 +14,23 @@ $("#cont").click(function() {
         scrollTop: $(".contact").offset().top
     }, 1000);
 });
+
+// More info
+$(".button-link").click(function() {
+    $(".more-info").fadeIn();
+    return false;
+});
+
+$(".close").click(function() {
+    $(".more-info").fadeOut();
+});
+
+
+// Fix for the home
+$(".dropbtn").click(function() {
+    return false;
+});
+
 	
 var fixmeTop = $('.home-nav').offset().top;    // get initial position of the element
 
