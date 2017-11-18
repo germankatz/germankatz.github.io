@@ -457,6 +457,10 @@ b{
 	z-index: 999;
     bottom: 0;
     color: white;
+    -webkit-box-shadow: 0px 3px 26px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 26px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 26px 1px rgba(0,0,0,0.75);
+
 }
 .more-info h3{
 	color: white;
@@ -473,4 +477,66 @@ b{
 	margin-top: 45px;
 	float: right;
 	background: #F26826;
+}
+.group-1, .group-2, .group-3, .group-4, .group-5{
+	display: none;
+	float: left;
+	margin-top: 35px;
+	left: 0;
+}
+.group-1 img, .group-2 img, .group-3 img, .group-4 img, .group-5 img{
+	margin-left: 10px;
+}
+.head-view{
+	background: #0D9344;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+.logo-head{
+	display:inline-block;
+	text-align: center;
+	color: white;
+	font-style: bolder;
+	font-size: 26px;
+    text-shadow: 0px 2px 1px #000;
+    margin-bottom: 15px;
+}
+.fl{
+	float: left;
+	position: absolute;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-top: 20px;
+	color: #2C2C2C;
+}
+.fl a{
+	text-decoration: none;
+	color: white;
+}
+.wrapper{
+    display: inline-block;
+}
+.tabs{
+	width: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.tab{
+	float: left;
+	cursor: pointer;
+	color: #095A2A;
+	margin-top: 4px;
+	margin-left: 8px;
+}
+.selected-tab{
+	padding: 5px;
+	color: #2C2C2C;
+	background: white;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 0px;
+}
+.left{
+	width: 100%;
 }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Productos</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta name="description" content="Acerca de">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/reset.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  		<script type="text/javascript">
+  			$(document).ready(function() {
+	  			var totalheight = $(window).height();
+	  			var headerheight = $('.head-view').height();
+	  			var futureheight = totalheight - headerheight;
+	  			$('.left').height(futureheight);
+
+				$('.maiz').click(function() {
+					if (!$('.maiz').hasClass('selected-tab')) {
+
+						// Remove everything
+						$('.soja').removeClass('selected-tab');
+						$('.colza').removeClass('selected-tab');
+
+						// Toggle
+						$('.maiz').addClass('selected-tab');
+
+						// Load
+						$('.left').attr("src", "http://semillasillinois.com.ar/maiz/");
+					}
+				});
+
+				$('.soja').click(function(){
+					if (!$('.soja').hasClass('selected-tab')) {
+
+						// Remove everything
+
+						$('.maiz').removeClass('selected-tab');
+						$('.colza').removeClass('selected-tab');
+
+						// Toggle
+						$('.soja').addClass('selected-tab');
+
+						$('.left').attr("src", "http://semillasillinois.com.ar/soja/");
+
+					}
+				});
+				$('.colza').click(function(){
+					if (!$('.colza').hasClass('selected-tab')) {
+
+						// Remove everything
+						$('.maiz').removeClass('selected-tab');
+						$('.soja').removeClass('selected-tab');
+
+						// Toggle
+						$('.colza').addClass('selected-tab');
+
+						$('.left').attr("src", "http://semillasillinois.com.ar/colza/");
+					}
+				});
+			});  
+
+
+  		</script>
+	</head>
+	<body class="box">
+		<div class="head-view" align="center">
+			<div class="fl">
+				<a href="products.html" class="goback"> ◄ &nbsp;VOLVER A PRODUCTOS</a>
+			</div>
+			<div class="wrapper">
+				<div class="logo-head">ILLINOIS</div>
+				<div class="tabs">
+					<div class="maiz tab selected-tab">MAIZ</div>
+					<div class="soja tab ">SOJA</div>
+					<div class="colza tab ">COLZA</div>
+				</div>
+			</div>
+		</div>
+		<iframe class="left" src="http://semillasillinois.com.ar/maiz/"></iframe>
+	</body>
+</html>
