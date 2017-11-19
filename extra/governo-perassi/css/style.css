@@ -448,12 +448,21 @@ b{
 .clr{
 	clear: both;
 }
+.all{
+	display: none;
+	background: #000000;
+  	opacity: .6; 
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
 .more-info{
+	z-index: 99999;
 	display: none;
 	position: fixed;
 	width: calc(100% - 80px);
 	padding: 40px;
-	background: #BD5523;
+	background: white;
 	z-index: 999;
     bottom: 0;
     color: white;
@@ -463,10 +472,11 @@ b{
 
 }
 .more-info h3{
-	color: white;
+	color: #2C2C2C;
 	float: left;
 }
 .close{
+	color: black;
 	float: right;
 	top: 0;
 	font-weight: bolder;

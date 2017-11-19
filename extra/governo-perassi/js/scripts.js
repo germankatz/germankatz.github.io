@@ -22,6 +22,7 @@ $(".group-1-btn").click(function() {
     $(".group-3").hide();
     $(".group-2").hide();
     $(".group-1").hide();
+    $(".all").css('display', 'block');
     $(".group-1").css('display','block');
     $(".more-info").fadeIn();
     return false;
@@ -32,6 +33,7 @@ $(".group-2-btn").click(function() {
     $(".group-3").hide();
     $(".group-2").hide();
     $(".group-1").hide();
+    $(".all").css('display', 'block');
     $(".group-2").css('display','block');
     $(".more-info").fadeIn();
     return false;
@@ -42,6 +44,7 @@ $(".group-3-btn").click(function() {
     $(".group-3").hide();
     $(".group-2").hide();
     $(".group-1").hide();
+    $(".all").css('display', 'block');
     $(".group-3").css('display','block');
     $(".more-info").fadeIn();
     return false;
@@ -52,6 +55,7 @@ $(".group-4-btn").click(function() {
     $(".group-3").hide();
     $(".group-2").hide();
     $(".group-1").hide();
+    $(".all").css('display', 'block');
     $(".group-4").css('display','block');
     $(".more-info").fadeIn();
     return false;
@@ -62,6 +66,7 @@ $(".group-5-btn").click(function() {
     $(".group-3").hide();
     $(".group-2").hide();
     $(".group-1").hide();
+    $(".all").css('display', 'block');
     $(".group-5").css('display','block');
     $(".more-info").fadeIn();
     return false;
@@ -73,6 +78,7 @@ $(".close").click(function() {
     $(".group-3").hide();
     $(".group-2").hide();
     $(".group-1").hide();
+    $(".all").css('display', 'none');
     $(".more-info").fadeOut();
 });
 
