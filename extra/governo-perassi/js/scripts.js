@@ -82,6 +82,17 @@ $(".close").click(function() {
     $(".more-info").fadeOut();
 });
 
+$(".all").click(function() {
+    $(".group-5").hide();
+    $(".group-4").hide();
+    $(".group-3").hide();
+    $(".group-2").hide();
+    $(".group-1").hide();
+    $(".all").css('display', 'none');
+    $(".more-info").fadeOut();
+    
+});
+
 
 // Fix for the home
 $(".dropbtn").click(function() {
