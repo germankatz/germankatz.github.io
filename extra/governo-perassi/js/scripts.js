@@ -7,6 +7,18 @@ $(document).ready(function(){
 		autoplaySpeed: 1000,
 		arrows: false
 	});	
+    var wi = $(".header-bg").width();
+    $(".slides").slidesjs({
+        play: {
+            auto: true,
+        },pagination: {
+            active: false,
+        },navigation: {
+            active: false,
+        },
+        width: 940,
+        height: 400
+    });
 });
 
 $("#cont").click(function() {
