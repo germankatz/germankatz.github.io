@@ -1,0 +1,2642 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List
+href="Resumen%20de%20Transformaciones%20lineales_archivos/filelist.xml">
+<link rel=Edit-Time-Data
+href="Resumen%20de%20Transformaciones%20lineales_archivos/editdata.mso">
+<link rel=OLE-Object-Data
+href="Resumen%20de%20Transformaciones%20lineales_archivos/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Aplicación Lineal</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>WinuE</o:Author>
+  <o:LastAuthor>WinuE</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>63</o:TotalTime>
+  <o:Created>2011-02-08T13:44:00Z</o:Created>
+  <o:LastSaved>2011-02-08T13:44:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1038</o:Words>
+  <o:Characters>5710</o:Characters>
+  <o:Company>The houze!</o:Company>
+  <o:Lines>47</o:Lines>
+  <o:Paragraphs>13</o:Paragraphs>
+  <o:CharactersWithSpaces>6735</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h2
+	{mso-style-next:Normal;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:ES;
+	mso-fareast-language:ES;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 212.6pt right 425.2pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:ES;
+	mso-fareast-language:ES;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:ES;
+	mso-fareast-language:ES;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("Resumen%20de%20Transformaciones%20lineales_archivos/header.htm") fs;
+	mso-footnote-continuation-separator:url("Resumen%20de%20Transformaciones%20lineales_archivos/header.htm") fcs;
+	mso-endnote-separator:url("Resumen%20de%20Transformaciones%20lineales_archivos/header.htm") es;
+	mso-endnote-continuation-separator:url("Resumen%20de%20Transformaciones%20lineales_archivos/header.htm") ecs;}
+@page Section1
+	{size:841.9pt 595.3pt;
+	mso-page-orientation:landscape;
+	margin:3.0cm 70.9pt 3.0cm 70.9pt;
+	mso-header-margin:35.45pt;
+	mso-footer-margin:35.45pt;
+	mso-even-footer:url("Resumen%20de%20Transformaciones%20lineales_archivos/header.htm") ef1;
+	mso-footer:url("Resumen%20de%20Transformaciones%20lineales_archivos/header.htm") f1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:3438416;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-35486570 -1987443828 67764227 67764229 67764225 67764227 67764229 67764225 67764227 67764229;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\F02D;
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	mso-ansi-font-size:16.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;}
+@list l1
+	{mso-list-id:60057766;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-866199774 -770686608 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:14.2pt;
+	mso-level-number-position:left;
+	margin-left:14.2pt;
+	text-indent:-14.2pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:Symbol;
+	color:windowtext;}
+@list l2
+	{mso-list-id:72822968;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1809066196 -770686608 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:14.2pt;
+	mso-level-number-position:left;
+	margin-left:14.2pt;
+	text-indent:-14.2pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:Symbol;
+	color:windowtext;}
+@list l3
+	{mso-list-id:223105826;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1996620200 2137527740 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:14.2pt;
+	mso-level-number-position:left;
+	margin-left:14.2pt;
+	text-indent:-14.2pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:420417116;
+	mso-list-type:hybrid;
+	mso-list-template-ids:861419410 -1566780752 -1566780752 201981979 201981967 201981977 201981979 201981967 201981977 201981979;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:54.0pt;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l5
+	{mso-list-id:428552610;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1949361150 -1566780752 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l6
+	{mso-list-id:520818068;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1626517330 -1566780752 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l7
+	{mso-list-id:523179350;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1251792454 -1566780752 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l8
+	{mso-list-id:541138513;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1343838598 -1566780752 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l9
+	{mso-list-id:570191236;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1252883040 -1566780752 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l10
+	{mso-list-id:631863107;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1047600154 201981975 201981977 201981979 201981967 201981977 201981979 201981967 201981977 201981979;}
+@list l10:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l11
+	{mso-list-id:694959113;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-438818778 -1566780752 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l12
+	{mso-list-id:717440482;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1525447478 -1987443828 67764227 67764229 67764225 67764227 67764229 67764225 67764227 67764229;}
+@list l12:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\F02D;
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	mso-ansi-font-size:16.0pt;
+	font-family:Symbol;
+	mso-bidi-font-family:"Times New Roman";
+	color:windowtext;}
+@list l13
+	{mso-list-id:739601948;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1202851188 -1698292734 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l13:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;}
+@list l14
+	{mso-list-id:786779291;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-206255336 201981975 201981977 201981979 201981967 201981977 201981979 201981967 201981977 201981979;}
+@list l14:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l15
+	{mso-list-id:873543482;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1363506278 201981975 -1566780752 201981979 201981967 201981977 201981979 201981967 201981977 201981979;}
+@list l15:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l15:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l16
+	{mso-list-id:984775542;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-431185626 201981975 201981977 201981979 201981967 201981977 201981979 201981967 201981977 201981979;}
+@list l16:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l17
+	{mso-list-id:1040278650;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1664748676 201981975 -1566780752 201981979 201981967 201981977 201981979 201981967 201981977 201981979;}
+@list l17:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l17:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l18
+	{mso-list-id:1360085262;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1422542766 -1698292734 201981967 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l18:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;}
+@list l18:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;}
+@list l19
+	{mso-list-id:1387560358;
+	mso-list-type:hybrid;
+	mso-list-template-ids:765354544 -770686608 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l19:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:14.2pt;
+	mso-level-number-position:left;
+	margin-left:14.2pt;
+	text-indent:-14.2pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:Symbol;
+	color:windowtext;}
+@list l20
+	{mso-list-id:1429158819;
+	mso-list-template-ids:-309450358;}
+@list l20:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l20:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l20:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l20:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l20:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l20:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l20:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l20:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l20:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l21
+	{mso-list-id:1483502192;
+	mso-list-type:hybrid;
+	mso-list-template-ids:62003112 735362836 193907052 201981979 201981967 201981977 201981979 201981967 201981977 201981979;}
+@list l21:level1
+	{mso-level-start-at:2;
+	mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:36.75pt;
+	mso-level-number-position:left;
+	margin-left:36.75pt;
+	text-indent:-18.75pt;}
+@list l21:level2
+	{mso-level-start-at:3;
+	mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+@list l22
+	{mso-list-id:1544757728;
+	mso-list-type:hybrid;
+	mso-list-template-ids:2069389666 -1566780752 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l22:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l23
+	{mso-list-id:1629624115;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1259039630 -770686608 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l23:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:14.2pt;
+	mso-level-number-position:left;
+	margin-left:14.2pt;
+	text-indent:-14.2pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:Symbol;
+	color:windowtext;}
+@list l24
+	{mso-list-id:1652098731;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-488473938 193907052 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l24:level1
+	{mso-level-start-at:3;
+	mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+@list l25
+	{mso-list-id:1662654030;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1113344472 201981975 201981977 201981979 201981967 201981977 201981979 201981967 201981977 201981979;}
+@list l25:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l26
+	{mso-list-id:1759979287;
+	mso-list-type:hybrid;
+	mso-list-template-ids:556831520 775694878 201981977 201981979 201981967 201981977 201981979 201981967 201981977 201981979;}
+@list l26:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l27
+	{mso-list-id:1835291084;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1672170810 1936784798 67764227 67764229 67764225 67764227 67764229 67764225 67764227 67764229;}
+@list l27:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l28
+	{mso-list-id:1962151724;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1223182620 201981975 -1566780752 201981979 201981967 201981977 201981979 201981967 201981977 201981979;}
+@list l28:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l28:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l29
+	{mso-list-id:1966884639;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1401564750 -1566780752 201981955 201981957 201981953 201981955 201981957 201981953 201981955 201981957;}
+@list l29:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:12.0pt;
+	font-family:Wingdings;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l30
+	{mso-list-id:2006323667;
+	mso-list-template-ids:1996620200;}
+@list l30:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:14.2pt;
+	mso-level-number-position:left;
+	margin-left:14.2pt;
+	text-indent:-14.2pt;
+	mso-ansi-font-size:8.0pt;
+	font-family:Symbol;}
+@list l30:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l30:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l30:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l30:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l30:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l30:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l30:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l30:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabla normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+  <o:regrouptable v:ext="edit">
+   <o:entry new="1" old="0"/>
+  </o:regrouptable>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ES-TRAD style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center'><img width=990
+height=118 id="_x0000_i1153" src=tituloalgebralineal.png></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-size:16.0pt'>Resumen del tema: Aplicaciones Lineales<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l11 level1 lfo21;
+tab-stops:list 18.0pt'><![if !supportLists]><span style='font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span
+style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Dados dos espacios vectoriales <sub><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:12pt;
+ height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image001.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=16 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image002.gif" v:shapes="_x0000_i1025"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1358667221">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>y <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1026" type="#_x0000_t75" style='width:14.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image003.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image004.gif" v:shapes="_x0000_i1026"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1026"
+  DrawAspect="Content" ObjectID="_1358667222">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l11 level1 lfo21;
+tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:14.2pt'><span
+style='mso-spacerun:yes'> </span><i style='mso-bidi-font-style:normal'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1027" type="#_x0000_t75" style='width:56.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1027"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1027"
+  DrawAspect="Content" ObjectID="_1358667223">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'>  </span>es una aplicación
+lineal</i><span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1028" type="#_x0000_t75" style='width:17.25pt;height:12pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image007.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=23 height=16
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image008.gif" v:shapes="_x0000_i1028"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1028"
+  DrawAspect="Content" ObjectID="_1358667224">
+ </o:OLEObject>
+</xml><![endif]--><sub><!--[if gte vml 1]><v:shape id="_x0000_i1029" type="#_x0000_t75"
+ style='width:198pt;height:36pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image009.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image010.gif" width=264 height=48 align="absmiddle" v:shapes="_x0000_i1029"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1029"
+  DrawAspect="Content" ObjectID="_1358667225">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:14.2pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l11 level1 lfo21;
+tab-stops:list 18.0pt'><![if !supportLists]><span style='font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span
+style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><sub><!--[if gte vml 1]><v:shape id="_x0000_i1030"
+ type="#_x0000_t75" style='width:11.25pt;height:12.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image011.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=15 height=17
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image012.gif" v:shapes="_x0000_i1030"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1030"
+  DrawAspect="Content" ObjectID="_1358667226">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'>  </span>también es
+llamada<span style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:
+normal'>Transformación Lineal</i></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l11 level1 lfo21;
+tab-stops:list 18.0pt'><![if !supportLists]><span style='font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span
+style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Las dos igualdades que definen una aplicación
+lineal se denominan “condiciones de linealidad”.<b style='mso-bidi-font-weight:
+normal'><o:p></o:p></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l11 level1 lfo21;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea<span style='mso-spacerun:yes'>  </span><i
+style='mso-bidi-font-style:normal'><sub><!--[if gte vml 1]><v:shape id="_x0000_i1031"
+ type="#_x0000_t75" style='width:56.25pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1031"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1031"
+  DrawAspect="Content" ObjectID="_1358667227">
+ </o:OLEObject>
+</xml><![endif]--></i><span style='mso-spacerun:yes'> </span>lineal</p>
+
+<p class=MsoNormal style='margin-left:35.4pt;line-height:150%'>1.<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1032"
+ type="#_x0000_t75" style='width:62.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image013.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=83 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image014.gif" v:shapes="_x0000_i1032"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1032"
+  DrawAspect="Content" ObjectID="_1358667228">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal style='margin-left:35.4pt;line-height:150%'>2.<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1033"
+ type="#_x0000_t75" style='width:110.25pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image015.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=147 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image016.gif" v:shapes="_x0000_i1033"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1033"
+  DrawAspect="Content" ObjectID="_1358667229">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal style='margin-left:35.4pt;line-height:150%'>3.<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1034"
+ type="#_x0000_t75" style='width:129pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image017.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=172 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image018.gif" v:shapes="_x0000_i1034"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1034"
+  DrawAspect="Content" ObjectID="_1358667230">
+ </o:OLEObject>
+</xml><![endif]--><sub><!--[if gte vml 1]><v:shape id="_x0000_i1035" type="#_x0000_t75"
+ style='width:177.75pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image019.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=237 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image020.gif" v:shapes="_x0000_i1035"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1035"
+  DrawAspect="Content" ObjectID="_1358667231">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:35.4pt;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l22 level1 lfo22;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea <i style='mso-bidi-font-style:normal'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1036" type="#_x0000_t75" style='width:56.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1036"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1036"
+  DrawAspect="Content" ObjectID="_1358667232">
+ </o:OLEObject>
+</xml><![endif]--></i><span style='mso-spacerun:yes'> </span>lineal. Se llama <i
+style='mso-bidi-font-style:normal'>núcleo</i><b style='mso-bidi-font-weight:
+normal'> </b><i style='mso-bidi-font-style:normal'>de</i><b style='mso-bidi-font-weight:
+normal'> </b><i style='mso-bidi-font-style:normal'>T, </i>y se representa por<i
+style='mso-bidi-font-style:normal'> <sub><!--[if gte vml 1]><v:shape id="_x0000_i1037"
+ type="#_x0000_t75" style='width:24.75pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image021.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=33 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image022.gif" v:shapes="_x0000_i1037"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1037"
+  DrawAspect="Content" ObjectID="_1358667233">
+ </o:OLEObject>
+</xml><![endif]--></i><span style='mso-spacerun:yes'> </span>, al conjunto de
+los vectores de <i style='mso-bidi-font-style:normal'>V</i> cuya imagen es el
+cero de <i style='mso-bidi-font-style:normal'>W.<o:p></o:p></i></p>
+
+<p class=MsoNormal style='line-height:150%'><span
+style='mso-spacerun:yes'>       </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1038"
+ type="#_x0000_t75" style='width:138pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image023.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=184 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image024.gif" v:shapes="_x0000_i1038"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1038"
+  DrawAspect="Content" ObjectID="_1358667234">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l22 level1 lfo22;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Dada <i style='mso-bidi-font-style:normal'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1039" type="#_x0000_t75" style='width:56.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1039"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1039"
+  DrawAspect="Content" ObjectID="_1358667235">
+ </o:OLEObject>
+</xml><![endif]--></i><span style='mso-spacerun:yes'> </span>lineal, el núcleo
+de <i style='mso-bidi-font-style:normal'>T</i> es un subespacio de <i
+style='mso-bidi-font-style:normal'>V</i></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l22 level1 lfo22;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l22 level1 lfo22;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea<i style='mso-bidi-font-style:normal'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1040" type="#_x0000_t75" style='width:56.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1040"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1040"
+  DrawAspect="Content" ObjectID="_1358667236">
+ </o:OLEObject>
+</xml><![endif]--></i> lineal. Se denomina <i style='mso-bidi-font-style:normal'>nulidad
+de <sub><!--[if gte vml 1]><v:shape id="_x0000_i1041" type="#_x0000_t75"
+ style='width:11.25pt;height:12.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image025.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=15 height=17
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image012.gif" v:shapes="_x0000_i1041"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1041"
+  DrawAspect="Content" ObjectID="_1358667237">
+ </o:OLEObject>
+</xml><![endif]--></i><span style='mso-spacerun:yes'> </span>a la dimensión del
+espacio <sub><!--[if gte vml 1]><v:shape id="_x0000_i1042" type="#_x0000_t75"
+ style='width:27.75pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image026.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=37 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image027.gif" v:shapes="_x0000_i1042"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1042"
+  DrawAspect="Content" ObjectID="_1358667238">
+ </o:OLEObject>
+</xml><![endif]-->. La nulidad de <sub><!--[if gte vml 1]><v:shape id="_x0000_i1043"
+ type="#_x0000_t75" style='width:11.25pt;height:12.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image028.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=15 height=17
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image012.gif" v:shapes="_x0000_i1043"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1043"
+  DrawAspect="Content" ObjectID="_1358667239">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>se denota <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1044" type="#_x0000_t75" style='width:26.25pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image029.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=35 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image030.gif" v:shapes="_x0000_i1044"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1044"
+  DrawAspect="Content" ObjectID="_1358667240">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l22 level1 lfo22;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea<span style='mso-spacerun:yes'>  </span><i
+style='mso-bidi-font-style:normal'><sub><!--[if gte vml 1]><v:shape id="_x0000_i1045"
+ type="#_x0000_t75" style='width:56.25pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1045"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1045"
+  DrawAspect="Content" ObjectID="_1358667241">
+ </o:OLEObject>
+</xml><![endif]--></i><span style='mso-spacerun:yes'> </span>lineal. Se
+denomina <i style='mso-bidi-font-style:normal'>Imagen de</i> <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1046" type="#_x0000_t75" style='width:11.25pt;height:12.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image031.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=15 height=17
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image012.gif" v:shapes="_x0000_i1046"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1046"
+  DrawAspect="Content" ObjectID="_1358667242">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'>  </span>y se denota<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1047"
+ type="#_x0000_t75" style='width:33.75pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image032.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=45 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image033.gif" v:shapes="_x0000_i1047"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1047"
+  DrawAspect="Content" ObjectID="_1358667243">
+ </o:OLEObject>
+</xml><![endif]-->, al conjunto de las imágenes de los vectores de V.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;line-height:
+150%'><sub><!--[if gte vml 1]><v:shape id="_x0000_i1048" type="#_x0000_t75"
+ style='width:230.25pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image034.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=307 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image035.gif" v:shapes="_x0000_i1048"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1048"
+  DrawAspect="Content" ObjectID="_1358667244">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;line-height:
+150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l9 level1 lfo23;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><sub><!--[if gte vml 1]><v:shape id="_x0000_i1049"
+ type="#_x0000_t75" style='width:27pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image036.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=36 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image037.gif" v:shapes="_x0000_i1049"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1049"
+  DrawAspect="Content" ObjectID="_1358667245">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>es un subespacio de <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1050" type="#_x0000_t75" style='width:14.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image038.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image004.gif" v:shapes="_x0000_i1050"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1050"
+  DrawAspect="Content" ObjectID="_1358667246">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l9 level1 lfo23;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l9 level1 lfo23;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Se denomina <i style='mso-bidi-font-style:normal'>rango
+de</i> <sub><!--[if gte vml 1]><v:shape id="_x0000_i1051" type="#_x0000_t75"
+ style='width:11.25pt;height:12.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image039.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=15 height=17
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image012.gif" v:shapes="_x0000_i1051"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1051"
+  DrawAspect="Content" ObjectID="_1358667247">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>a la dimensión del
+espacio <sub><!--[if gte vml 1]><v:shape id="_x0000_i1052" type="#_x0000_t75"
+ style='width:33pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image040.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=44 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image041.gif" v:shapes="_x0000_i1052"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1052"
+  DrawAspect="Content" ObjectID="_1358667248">
+ </o:OLEObject>
+</xml><![endif]-->. El rango de <sub><!--[if gte vml 1]><v:shape id="_x0000_i1053"
+ type="#_x0000_t75" style='width:11.25pt;height:12.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image042.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=15 height=17
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image012.gif" v:shapes="_x0000_i1053"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1053"
+  DrawAspect="Content" ObjectID="_1358667249">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>se denota <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1054" type="#_x0000_t75" style='width:27.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image043.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=37 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image044.gif" v:shapes="_x0000_i1054"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1054"
+  DrawAspect="Content" ObjectID="_1358667250">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l9 level1 lfo23;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Se denomina <i style='mso-bidi-font-style:normal'>matriz
+asociada<span style='mso-spacerun:yes'>  </span>a la transformación<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1055"
+ type="#_x0000_t75" style='width:68.25pt;height:18.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image045.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=91 height=25
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image046.gif" v:shapes="_x0000_i1055"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1055"
+  DrawAspect="Content" ObjectID="_1358667251">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>con respecto a las
+bases</i> <i style='mso-bidi-font-style:normal'>canónicas </i><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1056" type="#_x0000_t75" style='width:93.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image047.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=125 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image048.gif" v:shapes="_x0000_i1056"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1056"
+  DrawAspect="Content" ObjectID="_1358667252">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>y <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1057" type="#_x0000_t75" style='width:105.75pt;height:20.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image049.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=141 height=27
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image050.gif" v:shapes="_x0000_i1057"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1057"
+  DrawAspect="Content" ObjectID="_1358667253">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>de <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1058" type="#_x0000_t75" style='width:17.25pt;height:17.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image051.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=23 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image052.gif" v:shapes="_x0000_i1058"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1058"
+  DrawAspect="Content" ObjectID="_1358667254">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>y <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1059" type="#_x0000_t75" style='width:18.75pt;height:17.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image053.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=25 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image054.gif" v:shapes="_x0000_i1059"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1059"
+  DrawAspect="Content" ObjectID="_1358667255">
+ </o:OLEObject>
+</xml><![endif]-->, respectivamente, a la matriz <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1060" type="#_x0000_t75" style='width:27pt;height:11.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image055.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=36 height=15
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image056.gif" v:shapes="_x0000_i1060"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1060"
+  DrawAspect="Content" ObjectID="_1358667256">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>que tiene por columnas
+los transformados de los vectores de la base <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1061" type="#_x0000_t75" style='width:18pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image057.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=24 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image058.gif" v:shapes="_x0000_i1061"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1061"
+  DrawAspect="Content" ObjectID="_1358667257">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1062" type="#_x0000_t75" style='width:158.25pt;height:54pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image059.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=211 height=72
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image060.gif" v:shapes="_x0000_i1062"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1062"
+  DrawAspect="Content" ObjectID="_1358667258">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l18 level1 lfo30;
+tab-stops:list 18.0pt'><![if !supportLists]><span style='font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings'><span
+style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea <sub><!--[if gte vml 1]><v:shape id="_x0000_i1063"
+ type="#_x0000_t75" style='width:68.25pt;height:18.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image045.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=91 height=25
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image046.gif" v:shapes="_x0000_i1063"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1063"
+  DrawAspect="Content" ObjectID="_1358667259">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>lineal y sea <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1064" type="#_x0000_t75" style='width:18pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image061.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=24 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image062.gif" v:shapes="_x0000_i1064"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1064"
+  DrawAspect="Content" ObjectID="_1358667260">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>la matriz asociada.
+Entonces, <sub><!--[if gte vml 1]><v:shape id="_x0000_i1065" type="#_x0000_t75"
+ style='width:54.75pt;height:20.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image063.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=73 height=27
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image064.gif" v:shapes="_x0000_i1065"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1065"
+  DrawAspect="Content" ObjectID="_1358667261">
+ </o:OLEObject>
+</xml><![endif]--><sub><!--[if gte vml 1]><v:shape id="_x0000_i1066" type="#_x0000_t75"
+ style='width:18pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image061.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=24 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image062.gif" v:shapes="_x0000_i1066"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1066"
+  DrawAspect="Content" ObjectID="_1358667262">
+ </o:OLEObject>
+</xml><![endif]--><i>x</i>=<i>T</i>(<i>x</i>)</p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;mso-list:l18 level1 lfo30;
+tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'><span class="MsoNormal"><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§</span></span><![endif]><sub><!--[if gte vml 1]><v:shape id="_x0000_i1067"
+ type="#_x0000_t75" style='width:66pt;height:20.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image065.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]>
+</sub></span><sub class="MsoBodyText"><span class="MsoNormal" style="margin-left:0pt; text-indent:0pt; mso-list:l18 level1 lfo30; tab-stops:list 0pt; font-family: 'Times New Roman', Times, serif; font-size: 12pt;">Para</span></sub><span class="MsoNormal"><sub><span class="MsoNormal" style="margin-left:0pt;text-indent:-18.0pt;mso-list:l18 level1 lfo30;
+tab-stops:list 0pt"> <sub>
+<!--[if gte vml 1]><v:shape id="_x0000_i1063"
+ type="#_x0000_t75" style='width:68.25pt;height:18.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image045.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+<![if !vml]>
+<img
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image046.gif" alt="" width=91 height=25 v:shapes="_x0000_i1063">
+<![endif]>
+</sub>
+<!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1063"
+  DrawAspect="Content" ObjectID="_1358667259">
+ </o:OLEObject>
+</xml><![endif]-->
+<span style='mso-spacerun:yes'>&nbsp;</span></span></sub></span><sub><span class="MsoNormal" style="margin-left:0pt; text-indent:-18.0pt; mso-list:l18 level1 lfo30; tab-stops:list 0pt; font-family: 'Times New Roman', Times, serif; font-size: 12pt;">lineal,</span></sub><span class="MsoNormal"><sub> <img width=88 height=27
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image066.gif" v:shapes="_x0000_i1067"><![endif]>
+</sub>
+<!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1067"
+  DrawAspect="Content" ObjectID="_1358667263">
+ </o:OLEObject>
+</xml><![endif]-->
+</span></p>
+<p style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt &quot;Times New Roman&quot;; font-size: 12pt;'>&nbsp;&nbsp;&nbsp;Para<span class="MsoNormal" style="margin-left:0pt;text-indent:0pt;mso-list:l18 level1 lfo30;
+tab-stops:list 0pt"> <sub>
+  <!--[if gte vml 1]><v:shape id="_x0000_i1063"
+ type="#_x0000_t75" style='width:68.25pt;height:18.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image045.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+  <![if !vml]>
+  <img
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image046.gif" alt="" width=91 height=25 v:shapes="_x0000_i1063">
+  <![endif]>
+</sub>
+          <!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1063"
+  DrawAspect="Content" ObjectID="_1358667259">
+ </o:OLEObject>
+</xml><![endif]-->
+  <span style='mso-spacerun:yes'>&nbsp;</span></span><span style="margin-left:0pt; text-indent:0pt; mso-list:l18 level1 lfo30; tab-stops:list 0pt; font-size: 12pt;">lineal,</span> </span></span></span><![endif]><sub><!--[if gte vml 1]><v:shape id="_x0000_i1068"
+ type="#_x0000_t75" style='width:81.75pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image067.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=109 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image068.gif" v:shapes="_x0000_i1068"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1068"
+  DrawAspect="Content" ObjectID="_1358667269">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='mso-spacerun:yes'> </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1069" type="#_x0000_t75" style='width:69pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image069.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=92 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image070.gif" v:shapes="_x0000_i1069"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1069"
+  DrawAspect="Content" ObjectID="_1358667270">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><sub><!--[if gte vml 1]><v:shape id="_x0000_i1070"
+ type="#_x0000_t75" style='width:1in;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image071.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=96 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image072.gif" v:shapes="_x0000_i1070"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1070"
+  DrawAspect="Content" ObjectID="_1358667271">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea<span style='mso-spacerun:yes'>   </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1071" type="#_x0000_t75" style='width:68.25pt;height:18.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image045.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=91 height=25
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image046.gif" v:shapes="_x0000_i1071"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1071"
+  DrawAspect="Content" ObjectID="_1358667272">
+ </o:OLEObject>
+</xml><![endif]-->. Entonces se verifica que<span style='mso-spacerun:yes'> 
+</span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1072" type="#_x0000_t75"
+ style='width:87.75pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image073.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=117 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image074.gif" v:shapes="_x0000_i1072"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1072"
+  DrawAspect="Content" ObjectID="_1358667273">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l18 level1 lfo30;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea <b style='mso-bidi-font-weight:normal'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1073" type="#_x0000_t75" style='width:54.75pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image075.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=73 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image076.gif" v:shapes="_x0000_i1073"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1073"
+  DrawAspect="Content" ObjectID="_1358667274">
+ </o:OLEObject>
+</xml><![endif]-->, <sub><!--[if gte vml 1]><v:shape id="_x0000_i1074" type="#_x0000_t75"
+ style='width:51pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image077.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=68 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image078.gif" v:shapes="_x0000_i1074"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1074"
+  DrawAspect="Content" ObjectID="_1358667275">
+ </o:OLEObject>
+</xml><![endif]-->, <sub><!--[if gte vml 1]><v:shape id="_x0000_i1075" type="#_x0000_t75"
+ style='width:56.25pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image079.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image080.gif" v:shapes="_x0000_i1075"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1075"
+  DrawAspect="Content" ObjectID="_1358667276">
+ </o:OLEObject>
+</xml><![endif]--></b><span style='mso-spacerun:yes'> </span>y sean <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1076" type="#_x0000_t75" style='width:14.25pt;height:17.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image081.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image082.gif" v:shapes="_x0000_i1076"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1076"
+  DrawAspect="Content" ObjectID="_1358667277">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>base de V y <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1077" type="#_x0000_t75" style='width:15pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image083.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image084.gif" v:shapes="_x0000_i1077"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1077"
+  DrawAspect="Content" ObjectID="_1358667278">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>base de W. Sea <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1078" type="#_x0000_t75" style='width:90.75pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image085.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=121 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image086.gif" v:shapes="_x0000_i1078"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1078"
+  DrawAspect="Content" ObjectID="_1358667279">
+ </o:OLEObject>
+</xml><![endif]-->. Se denomina <i style='mso-bidi-font-style:normal'>matriz
+asociada<span style='mso-spacerun:yes'>  </span>a la transformación<span
+style='mso-spacerun:yes'>  </span></i><b style='mso-bidi-font-weight:normal'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1079" type="#_x0000_t75" style='width:54.75pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image075.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=73 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image076.gif" v:shapes="_x0000_i1079"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1079"
+  DrawAspect="Content" ObjectID="_1358667280">
+ </o:OLEObject>
+</xml><![endif]--></b><i style='mso-bidi-font-style:normal'><span
+style='mso-spacerun:yes'> </span>con respecto a las bases </i><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1080" type="#_x0000_t75" style='width:14.25pt;height:17.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image081.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image082.gif" v:shapes="_x0000_i1080"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1080"
+  DrawAspect="Content" ObjectID="_1358667281">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>y<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1081"
+ type="#_x0000_t75" style='width:15pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image083.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image084.gif" v:shapes="_x0000_i1081"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1081"
+  DrawAspect="Content" ObjectID="_1358667282">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>a la matriz<sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1082" type="#_x0000_t75" style='width:15.75pt;height:17.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image087.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=21 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image088.gif" v:shapes="_x0000_i1082"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1082"
+  DrawAspect="Content" ObjectID="_1358667283">
+ </o:OLEObject>
+</xml><![endif]--> <sub><!--[if gte vml 1]><v:shape id="_x0000_i1083" type="#_x0000_t75"
+ style='width:27pt;height:11.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image055.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=36 height=15
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image056.gif" v:shapes="_x0000_i1083"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1083"
+  DrawAspect="Content" ObjectID="_1358667284">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>que tiene por columnas
+las coordenadas con respecto a<sub><!--[if gte vml 1]><v:shape id="_x0000_i1084"
+ type="#_x0000_t75" style='width:15pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image083.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image084.gif" v:shapes="_x0000_i1084"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1084"
+  DrawAspect="Content" ObjectID="_1358667285">
+ </o:OLEObject>
+</xml><![endif]-->, de<span style='mso-spacerun:yes'>  </span>las imágenes de
+los vectores de la base <sub><!--[if gte vml 1]><v:shape id="_x0000_i1085"
+ type="#_x0000_t75" style='width:14.25pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image081.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image082.gif" v:shapes="_x0000_i1085"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1085"
+  DrawAspect="Content" ObjectID="_1358667286">
+ </o:OLEObject>
+</xml><![endif]-->.</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1157" type="#_x0000_t75" style='width:204.75pt;height:54.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image089.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=273 height=73
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image090.gif" v:shapes="_x0000_i1157"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1157"
+  DrawAspect="Content" ObjectID="_1358667287">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l13 level1 lfo31;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sean <b style='mso-bidi-font-weight:normal'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1158" type="#_x0000_t75" style='width:54.75pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image075.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=73 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image076.gif" v:shapes="_x0000_i1158"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1158"
+  DrawAspect="Content" ObjectID="_1358667288">
+ </o:OLEObject>
+</xml><![endif]--></b>lineal<b style='mso-bidi-font-weight:normal'>, <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1159" type="#_x0000_t75" style='width:51pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image077.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=68 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image078.gif" v:shapes="_x0000_i1159"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1159"
+  DrawAspect="Content" ObjectID="_1358667289">
+ </o:OLEObject>
+</xml><![endif]-->, <sub><!--[if gte vml 1]><v:shape id="_x0000_i1160" type="#_x0000_t75"
+ style='width:56.25pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image079.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image080.gif" v:shapes="_x0000_i1160"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1160"
+  DrawAspect="Content" ObjectID="_1358667290">
+ </o:OLEObject>
+</xml><![endif]-->,</b> <sub><!--[if gte vml 1]><v:shape id="_x0000_i1161"
+ type="#_x0000_t75" style='width:14.25pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image081.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image082.gif" v:shapes="_x0000_i1161"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1161"
+  DrawAspect="Content" ObjectID="_1358667291">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>base de V,<sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1162" type="#_x0000_t75" style='width:15pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image083.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image084.gif" v:shapes="_x0000_i1162"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1162"
+  DrawAspect="Content" ObjectID="_1358667292">
+ </o:OLEObject>
+</xml><![endif]--> base de W y <sub><!--[if gte vml 1]><v:shape id="_x0000_i1163"
+ type="#_x0000_t75" style='width:15.75pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image091.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=21 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image088.gif" v:shapes="_x0000_i1163"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1163"
+  DrawAspect="Content" ObjectID="_1358667293">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>la matriz asociada a T
+con respecto a las bases <sub><!--[if gte vml 1]><v:shape id="_x0000_i1164"
+ type="#_x0000_t75" style='width:14.25pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image081.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image082.gif" v:shapes="_x0000_i1164"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1164"
+  DrawAspect="Content" ObjectID="_1358667294">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>y<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1165"
+ type="#_x0000_t75" style='width:15pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image083.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image084.gif" v:shapes="_x0000_i1165"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1165"
+  DrawAspect="Content" ObjectID="_1358667295">
+ </o:OLEObject>
+</xml><![endif]-->. Entonces se verifica:</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>a)<span
+style='mso-spacerun:yes'>    </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1166"
+ type="#_x0000_t75" style='width:146.25pt;height:18.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image092.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=195 height=25
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image093.gif" v:shapes="_x0000_i1166"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1166"
+  DrawAspect="Content" ObjectID="_1358667296">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'>     </span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>b)<span
+style='mso-spacerun:yes'>    </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1167"
+ type="#_x0000_t75" style='width:69pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image069.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=92 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image070.gif" v:shapes="_x0000_i1167"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1167"
+  DrawAspect="Content" ObjectID="_1358667297">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>c)<span
+style='mso-spacerun:yes'>     </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1168"
+ type="#_x0000_t75" style='width:1in;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image071.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=96 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image072.gif" v:shapes="_x0000_i1168"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1168"
+  DrawAspect="Content" ObjectID="_1358667298">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><span
+style='mso-spacerun:yes'> </span>d)<span style='mso-spacerun:yes'>    </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1086" type="#_x0000_t75" style='width:116.25pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image094.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=155 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image095.gif" v:shapes="_x0000_i1086"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1086"
+  DrawAspect="Content" ObjectID="_1358667299">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l13 level1 lfo31;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sean: <sub><!--[if gte vml 1]><v:shape id="_x0000_i1087"
+ type="#_x0000_t75" style='width:66.75pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image096.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=89 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image097.gif" v:shapes="_x0000_i1087"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1087"
+  DrawAspect="Content" ObjectID="_1358667300">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>lineal; <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1088" type="#_x0000_t75" style='width:14.25pt;height:17.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image098.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image082.gif" v:shapes="_x0000_i1088"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1088"
+  DrawAspect="Content" ObjectID="_1358667301">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>una base de <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1089" type="#_x0000_t75" style='width:18pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image099.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=24 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image100.gif" v:shapes="_x0000_i1089"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1089"
+  DrawAspect="Content" ObjectID="_1358667302">
+ </o:OLEObject>
+</xml><![endif]-->;<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1090" type="#_x0000_t75" style='width:17.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image101.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=23 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image102.gif" v:shapes="_x0000_i1090"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1090"
+  DrawAspect="Content" ObjectID="_1358667303">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>la base canónica de <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1091" type="#_x0000_t75" style='width:18pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image099.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=24 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image100.gif" v:shapes="_x0000_i1091"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1091"
+  DrawAspect="Content" ObjectID="_1358667304">
+ </o:OLEObject>
+</xml><![endif]-->;<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1092" type="#_x0000_t75" style='width:15pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image103.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image084.gif" v:shapes="_x0000_i1092"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1092"
+  DrawAspect="Content" ObjectID="_1358667305">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>una base de <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1093" type="#_x0000_t75" style='width:18.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image104.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=25 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image105.gif" v:shapes="_x0000_i1093"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1093"
+  DrawAspect="Content" ObjectID="_1358667306">
+ </o:OLEObject>
+</xml><![endif]-->;<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1094" type="#_x0000_t75" style='width:17.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image106.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=23 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image107.gif" v:shapes="_x0000_i1094"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1094"
+  DrawAspect="Content" ObjectID="_1358667307">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>la base canónica de <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1095" type="#_x0000_t75" style='width:18.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image108.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=25 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image105.gif" v:shapes="_x0000_i1095"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1095"
+  DrawAspect="Content" ObjectID="_1358667308">
+ </o:OLEObject>
+</xml><![endif]-->;<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1096" type="#_x0000_t75" style='width:15.75pt;height:17.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image109.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=21 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image088.gif" v:shapes="_x0000_i1096"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1096"
+  DrawAspect="Content" ObjectID="_1358667309">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>la matriz asociada a <i
+style='mso-bidi-font-style:normal'>T</i> con respecto a<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1097"
+ type="#_x0000_t75" style='width:14.25pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image098.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image082.gif" v:shapes="_x0000_i1097"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1097"
+  DrawAspect="Content" ObjectID="_1358667310">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>y <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1098" type="#_x0000_t75" style='width:15pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image103.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image084.gif" v:shapes="_x0000_i1098"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1098"
+  DrawAspect="Content" ObjectID="_1358667311">
+ </o:OLEObject>
+</xml><![endif]-->;<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1099" type="#_x0000_t75" style='width:17.25pt;height:17.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image110.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=23 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image111.gif" v:shapes="_x0000_i1099"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1099"
+  DrawAspect="Content" ObjectID="_1358667312">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>la matriz asociada a <i
+style='mso-bidi-font-style:normal'>T</i> con respecto a <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1100" type="#_x0000_t75" style='width:17.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image101.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=23 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image102.gif" v:shapes="_x0000_i1100"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1100"
+  DrawAspect="Content" ObjectID="_1358667313">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>y <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1101" type="#_x0000_t75" style='width:17.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image106.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=23 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image107.gif" v:shapes="_x0000_i1101"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1101"
+  DrawAspect="Content" ObjectID="_1358667314">
+ </o:OLEObject>
+</xml><![endif]-->. Entonces:<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1102" type="#_x0000_t75" style='width:81.75pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image112.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=109 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image113.gif" v:shapes="_x0000_i1102"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1102"
+  DrawAspect="Content" ObjectID="_1358667315">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l13 level1 lfo31;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><sub><!--[if gte vml 1]><v:shape id="_x0000_i1103"
+ type="#_x0000_t75" style='width:56.25pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1103"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1103"
+  DrawAspect="Content" ObjectID="_1358667316">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'>  </span>es<span
+style='mso-spacerun:yes'>  </span>una transformación inyectiva <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1104" type="#_x0000_t75" style='width:17.25pt;height:12pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image007.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=23 height=16
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image008.gif" v:shapes="_x0000_i1104"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1104"
+  DrawAspect="Content" ObjectID="_1358667317">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1105" type="#_x0000_t75" style='width:180.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image114.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=241 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image115.gif" v:shapes="_x0000_i1105"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1105"
+  DrawAspect="Content" ObjectID="_1358667318">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Si una transformación es inyectiva suele decirse
+que es “uno a uno” (se escribe “1–1”)</p>
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>La condición <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1106" type="#_x0000_t75" style='width:111.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image116.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=149 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image117.gif" v:shapes="_x0000_i1106"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1106"
+  DrawAspect="Content" ObjectID="_1358667319">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>es equivalente a la
+condición <sub><!--[if gte vml 1]><v:shape id="_x0000_i1107" type="#_x0000_t75"
+ style='width:105.75pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image118.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=141 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image119.gif" v:shapes="_x0000_i1107"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1107"
+  DrawAspect="Content" ObjectID="_1358667320">
+ </o:OLEObject>
+</xml><![endif]-->, es decir: <u>T es inyectiva si y sólo si a elementos
+distintos corresponden imágenes distintas.</u></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><sub><!--[if gte vml 1]><v:shape id="_x0000_i1108"
+ type="#_x0000_t75" style='width:56.25pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1108"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1108"
+  DrawAspect="Content" ObjectID="_1358667321">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'>  </span>es<span
+style='mso-spacerun:yes'>  </span>una transformación sobreyectiva <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1109" type="#_x0000_t75" style='width:17.25pt;height:12pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image007.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=23 height=16
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image008.gif" v:shapes="_x0000_i1109"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1109"
+  DrawAspect="Content" ObjectID="_1358667322">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1110" type="#_x0000_t75" style='width:171pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image120.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=228 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image121.gif" v:shapes="_x0000_i1110"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1110"
+  DrawAspect="Content" ObjectID="_1358667323">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Si una transformación es sobreyectiva suele
+decirse simplemente que es “sobre”.</p>
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l5 level1 lfo24;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>La condición<sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1111" type="#_x0000_t75" style='width:168.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image122.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=225 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image123.gif" v:shapes="_x0000_i1111"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1111"
+  DrawAspect="Content" ObjectID="_1358667324">
+ </o:OLEObject>
+</xml><![endif]-->es equivalente a pedir que todo elemento de W sea imagen de
+alguno de V, es decir:</p>
+
+<p class=MsoNormal style='line-height:150%'><span style='mso-spacerun:yes'>    
+</span><span style='mso-spacerun:yes'> </span><u>T es sobre<span
+style='mso-spacerun:yes'>   </span>si y sólo si<span style='mso-spacerun:yes'> 
+</span>Im(T)=W</u><span style='mso-spacerun:yes'>  </span>o bien<span
+style='mso-spacerun:yes'>  </span><u>T es sobre<span
+style='mso-spacerun:yes'>   </span>si y sólo si<span style='mso-spacerun:yes'> 
+</span></u><sub><!--[if gte vml 1]><v:shape id="_x0000_i1112" type="#_x0000_t75"
+ style='width:78pt;height:18.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image124.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image125.gif" width=104 height=25 align="absmiddle" v:shapes="_x0000_i1112"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1112"
+  DrawAspect="Content" ObjectID="_1358667325">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'>  </span></p>
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l6 level1 lfo25;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><sub><!--[if gte vml 1]><v:shape id="_x0000_i1113"
+ type="#_x0000_t75" style='width:56.25pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1113"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1113"
+  DrawAspect="Content" ObjectID="_1358667326">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'>  </span>es<span
+style='mso-spacerun:yes'>  </span>una transformación biyectiva <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1114" type="#_x0000_t75" style='width:17.25pt;height:12pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image007.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=23 height=16
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image008.gif" v:shapes="_x0000_i1114"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1114"
+  DrawAspect="Content" ObjectID="_1358667327">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1115" type="#_x0000_t75" style='width:62.25pt;height:36pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image126.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image127.gif" width=83 height=48 align="absmiddle" v:shapes="_x0000_i1115"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1115"
+  DrawAspect="Content" ObjectID="_1358667328">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l6 level1 lfo25;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l6 level1 lfo25;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1116" type="#_x0000_t75" style='width:56.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1116"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1116"
+  DrawAspect="Content" ObjectID="_1358667329">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>lineal. Entonces, <i
+style='mso-bidi-font-style:normal'>T</i> es inyectiva si y sólo si el núcleo de
+<i style='mso-bidi-font-style:normal'>T</i> tiene como único elemento al vector
+cero.</p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l6 level1 lfo25;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l6 level1 lfo25;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1117" type="#_x0000_t75" style='width:56.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1117"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1117"
+  DrawAspect="Content" ObjectID="_1358667330">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>lineal, con <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1118" type="#_x0000_t75" style='width:57.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image128.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=77 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image129.gif" v:shapes="_x0000_i1118"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1118"
+  DrawAspect="Content" ObjectID="_1358667331">
+ </o:OLEObject>
+</xml><![endif]-->. Entonces:</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l28 level1 lfo12;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='mso-list:Ignore'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><i style='mso-bidi-font-style:normal'>T</i> es 1-1 <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1119" type="#_x0000_t75" style='width:60.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image130.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=81 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image131.gif" v:shapes="_x0000_i1119"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1119"
+  DrawAspect="Content" ObjectID="_1358667332">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l28 level1 lfo12;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='mso-list:Ignore'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><i style='mso-bidi-font-style:normal'>T</i> es 1-1 <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1120" type="#_x0000_t75" style='width:63pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image132.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=84 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image133.gif" v:shapes="_x0000_i1120"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1120"
+  DrawAspect="Content" ObjectID="_1358667333">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l28 level1 lfo12;tab-stops:list 36.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l8 level1 lfo26;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1121" type="#_x0000_t75" style='width:56.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1121"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1121"
+  DrawAspect="Content" ObjectID="_1358667334">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>lineal, con <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1122" type="#_x0000_t75" style='width:108pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image134.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=144 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image135.gif" v:shapes="_x0000_i1122"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1122"
+  DrawAspect="Content" ObjectID="_1358667335">
+ </o:OLEObject>
+</xml><![endif]-->. Entonces:</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l17 level1 lfo13;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='mso-list:Ignore'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><i style='mso-bidi-font-style:normal'>T</i> es 1-1 <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1123" type="#_x0000_t75" style='width:15pt;height:12pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image136.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=16
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image137.gif" v:shapes="_x0000_i1123"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1123"
+  DrawAspect="Content" ObjectID="_1358667336">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span><i style='mso-bidi-font-style:
+normal'>T</i> es sobre</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l17 level1 lfo13;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='mso-list:Ignore'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]><i style='mso-bidi-font-style:normal'>T </i><span
+style='mso-spacerun:yes'> </span>es sobre <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1124" type="#_x0000_t75" style='width:15pt;height:12pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image138.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=16
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image137.gif" v:shapes="_x0000_i1124"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1124"
+  DrawAspect="Content" ObjectID="_1358667337">
+ </o:OLEObject>
+</xml><![endif]--><i style='mso-bidi-font-style:normal'><span
+style='mso-spacerun:yes'> </span>T</i> es 1-1</p>
+<p class=MsoNormal style='margin-left:36.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l17 level1 lfo13;tab-stops:list 36.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l8 level1 lfo26;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1125" type="#_x0000_t75" style='width:56.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1125"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1125"
+  DrawAspect="Content" ObjectID="_1358667338">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>lineal, con <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1126" type="#_x0000_t75" style='width:57.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image139.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=77 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image129.gif" v:shapes="_x0000_i1126"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1126"
+  DrawAspect="Content" ObjectID="_1358667339">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'>  </span>y<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1127"
+ type="#_x0000_t75" style='width:63pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image140.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=84 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image141.gif" v:shapes="_x0000_i1127"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1127"
+  DrawAspect="Content" ObjectID="_1358667340">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>a)<span
+style='mso-spacerun:yes'>  </span>Si<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1128" type="#_x0000_t75" style='width:30.75pt;height:11.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image142.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=41 height=15
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image143.gif" v:shapes="_x0000_i1128"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1128"
+  DrawAspect="Content" ObjectID="_1358667341">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>, entonces<span
+style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:normal'>T<span
+style='mso-spacerun:yes'>  </span></i><span style='mso-spacerun:yes'> </span><u>no
+es</u><span style='mso-spacerun:yes'>  </span>1-1</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>b)<span
+style='mso-spacerun:yes'>  </span>Si<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1129" type="#_x0000_t75" style='width:30.75pt;height:11.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image144.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=41 height=15
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image145.gif" v:shapes="_x0000_i1129"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1129"
+  DrawAspect="Content" ObjectID="_1358667342">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>, entonces<span
+style='mso-spacerun:yes'>  </span><i style='mso-bidi-font-style:normal'>T<span
+style='mso-spacerun:yes'>  </span></i><span style='mso-spacerun:yes'> </span><u>no
+es</u><span style='mso-spacerun:yes'>  </span>sobre</p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l8 level1 lfo26;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea<span style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1130" type="#_x0000_t75" style='width:56.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1130"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1130"
+  DrawAspect="Content" ObjectID="_1358667343">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>lineal, con <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1131" type="#_x0000_t75" style='width:57.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image139.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=77 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image129.gif" v:shapes="_x0000_i1131"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1131"
+  DrawAspect="Content" ObjectID="_1358667345">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'>  </span>y<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1132"
+ type="#_x0000_t75" style='width:63pt;height:15.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image140.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=84 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image141.gif" v:shapes="_x0000_i1132"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1132"
+  DrawAspect="Content" ObjectID="_1358667346">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>a)<span
+style='mso-spacerun:yes'>  </span>Si<span style='mso-spacerun:yes'>  </span><i
+style='mso-bidi-font-style:normal'>T<span style='mso-spacerun:yes'>  </span></i><span
+style='mso-spacerun:yes'> </span>es<span style='mso-spacerun:yes'>  </span>1-1,
+entonces <sub><!--[if gte vml 1]><v:shape id="_x0000_i1133" type="#_x0000_t75"
+ style='width:30.75pt;height:12.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image146.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=41 height=17
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image147.gif" v:shapes="_x0000_i1133"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1133"
+  DrawAspect="Content" ObjectID="_1358667347">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>b)<span
+style='mso-spacerun:yes'>  </span>Si<span style='mso-spacerun:yes'>  </span><i
+style='mso-bidi-font-style:normal'>T<span style='mso-spacerun:yes'>  </span></i><span
+style='mso-spacerun:yes'> </span>es<span style='mso-spacerun:yes'> 
+</span>sobre,<span style='mso-spacerun:yes'>  </span>entonces<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1134"
+ type="#_x0000_t75" style='width:30.75pt;height:12.75pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image148.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=41 height=17
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image149.gif" v:shapes="_x0000_i1134"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1134"
+  DrawAspect="Content" ObjectID="_1358667348">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>c)<span
+style='mso-spacerun:yes'>   </span>Si<span style='mso-spacerun:yes'>  </span><i
+style='mso-bidi-font-style:normal'>T<span style='mso-spacerun:yes'>  </span></i><span
+style='mso-spacerun:yes'> </span>es<span style='mso-spacerun:yes'> 
+</span>biyectiva,<span style='mso-spacerun:yes'>  </span>entonces<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1135"
+ type="#_x0000_t75" style='width:30.75pt;height:11.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image150.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=41 height=15
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image151.gif" v:shapes="_x0000_i1135"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1135"
+  DrawAspect="Content" ObjectID="_1358667349">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>(consecuencia directa
+de a) yb)).</p>
+
+<p class=MsoNormal style='line-height:150%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l8 level1 lfo26;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Dada <sub><!--[if gte vml 1]><v:shape id="_x0000_i1136"
+ type="#_x0000_t75" style='width:56.25pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1136"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1136"
+  DrawAspect="Content" ObjectID="_1358667350">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>lineal, se dice que <i
+style='mso-bidi-font-style:normal'>T</i> <i style='mso-bidi-font-style:normal'>es
+un isomorfismo</i> si y sólo si <i style='mso-bidi-font-style:normal'>T</i> es
+biyectiva.</p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l8 level1 lfo26;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l8 level1 lfo26;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Se dice que los espacios V y W son isomorfos si
+y sólo si existe un isomorfismo de V en W. En ese caso, se denota <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1137" type="#_x0000_t75" style='width:35.25pt;height:14.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image152.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=47 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image153.gif" v:shapes="_x0000_i1137"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1137"
+  DrawAspect="Content" ObjectID="_1358667351">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l8 level1 lfo26;tab-stops:list 18.0pt'>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1138" type="#_x0000_t75" style='width:123.75pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image154.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=165 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image155.gif" v:shapes="_x0000_i1138"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1138"
+  DrawAspect="Content" ObjectID="_1358667352">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>biyectiva</p>
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l7 level1 lfo27;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Si <i style='mso-bidi-font-style:normal'>V</i> y
+<i style='mso-bidi-font-style:normal'>W</i> son espacios isomorfos, entonces <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1139" type="#_x0000_t75" style='width:92.25pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image156.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=123 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image157.gif" v:shapes="_x0000_i1139"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1139"
+  DrawAspect="Content" ObjectID="_1358667353">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l7 level1 lfo27;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea <sub><!--[if gte vml 1]><v:shape id="_x0000_i1140"
+ type="#_x0000_t75" style='width:56.25pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1140"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1140"
+  DrawAspect="Content" ObjectID="_1358667354">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>un isomorfismo, <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1141" type="#_x0000_t75" style='width:14.25pt;height:17.25pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image158.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image082.gif" v:shapes="_x0000_i1141"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1141"
+  DrawAspect="Content" ObjectID="_1358667355">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>y <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1142" type="#_x0000_t75" style='width:15pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image159.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image084.gif" v:shapes="_x0000_i1142"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1142"
+  DrawAspect="Content" ObjectID="_1358667356">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>bases de <i
+style='mso-bidi-font-style:normal'>V</i> y <i style='mso-bidi-font-style:normal'>W</i>,
+respectivamente, y sea <sub><!--[if gte vml 1]><v:shape id="_x0000_i1143"
+ type="#_x0000_t75" style='width:15.75pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image160.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=21 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image088.gif" v:shapes="_x0000_i1143"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1143"
+  DrawAspect="Content" ObjectID="_1358667357">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>una matriz asociada a
+T con respecto a <sub><!--[if gte vml 1]><v:shape id="_x0000_i1144" type="#_x0000_t75"
+ style='width:14.25pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image161.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=19 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image082.gif" v:shapes="_x0000_i1144"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1144"
+  DrawAspect="Content" ObjectID="_1358667358">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>y <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1145" type="#_x0000_t75" style='width:15pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image162.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=20 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image084.gif" v:shapes="_x0000_i1145"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1145"
+  DrawAspect="Content" ObjectID="_1358667359">
+ </o:OLEObject>
+</xml><![endif]-->. Entonces:</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>a)<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1146"
+ type="#_x0000_t75" style='width:15.75pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image160.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=21 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image088.gif" v:shapes="_x0000_i1146"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1146"
+  DrawAspect="Content" ObjectID="_1358667360">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>es cuadrada</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'>b)<span
+style='mso-spacerun:yes'>  </span><sub><!--[if gte vml 1]><v:shape id="_x0000_i1147"
+ type="#_x0000_t75" style='width:15.75pt;height:17.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image160.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=21 height=23
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image088.gif" v:shapes="_x0000_i1147"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1147"
+  DrawAspect="Content" ObjectID="_1358667361">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>es invertible</p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l29 level1 lfo28;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Sea <sub><!--[if gte vml 1]><v:shape id="_x0000_i1148"
+ type="#_x0000_t75" style='width:56.25pt;height:14.25pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image005.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=75 height=19
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image006.gif" v:shapes="_x0000_i1148"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1148"
+  DrawAspect="Content" ObjectID="_1358667362">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>un isomorfismo.
+Entonces:</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l15 level1 lfo15;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='mso-list:Ignore'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Si <sub><!--[if gte vml 1]><v:shape id="_x0000_i1149"
+ type="#_x0000_t75" style='width:71.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image163.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=95 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image164.gif" v:shapes="_x0000_i1149"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1149"
+  DrawAspect="Content" ObjectID="_1358667363">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>es un generador de <i
+style='mso-bidi-font-style:normal'>V</i>, <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1150" type="#_x0000_t75" style='width:119.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image165.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=159 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image166.gif" v:shapes="_x0000_i1150"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1150"
+  DrawAspect="Content" ObjectID="_1358667364">
+ </o:OLEObject>
+</xml><![endif]-->es un generador de <i style='mso-bidi-font-style:normal'>W</i>.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l15 level1 lfo15;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='mso-list:Ignore'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Si <sub><!--[if gte vml 1]><v:shape id="_x0000_i1151"
+ type="#_x0000_t75" style='width:71.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image163.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=95 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image164.gif" v:shapes="_x0000_i1151"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1151"
+  DrawAspect="Content" ObjectID="_1358667365">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>es linealmente
+independiente, <sub><!--[if gte vml 1]><v:shape id="_x0000_i1152" type="#_x0000_t75"
+ style='width:119.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image165.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=159 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image166.gif" v:shapes="_x0000_i1152"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1152"
+  DrawAspect="Content" ObjectID="_1358667366">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>es linealmente
+independiente.</p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%;mso-list:l15 level1 lfo15;tab-stops:list 36.0pt'><![if !supportLists]><span
+style='mso-list:Ignore'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Si <sub><!--[if gte vml 1]><v:shape id="_x0000_i1154"
+ type="#_x0000_t75" style='width:71.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image163.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=95 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image164.gif" v:shapes="_x0000_i1154"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1154"
+  DrawAspect="Content" ObjectID="_1358667367">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>es base de <i
+style='mso-bidi-font-style:normal'>V</i>, <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1155" type="#_x0000_t75" style='width:119.25pt;height:18pt' o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image165.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=159 height=24
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image166.gif" v:shapes="_x0000_i1155"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1155"
+  DrawAspect="Content" ObjectID="_1358667368">
+ </o:OLEObject>
+</xml><![endif]--><span style='mso-spacerun:yes'> </span>es base de <i
+style='mso-bidi-font-style:normal'>W</i>.</p>
+
+<p class=MsoNormal style='text-align:justify'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;mso-list:l4 level1 lfo29;tab-stops:list 18.0pt'><![if !supportLists]><span
+style='font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Si <i style='mso-bidi-font-style:normal'>V</i> y
+<i style='mso-bidi-font-style:normal'>W</i> son tales que <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_i1156" type="#_x0000_t75" style='width:92.25pt;height:15.75pt'
+ o:ole="">
+ <v:imagedata src="Resumen%20de%20Transformaciones%20lineales_archivos/image156.wmz"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=123 height=21
+src="Resumen%20de%20Transformaciones%20lineales_archivos/image157.gif" v:shapes="_x0000_i1156"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1156"
+  DrawAspect="Content" ObjectID="_1358667369">
+ </o:OLEObject>
+</xml><![endif]-->,<span style='mso-spacerun:yes'>  </span>entonces <i
+style='mso-bidi-font-style:normal'>V</i> y <i style='mso-bidi-font-style:normal'>W</i>
+son espacios isomorfos.</p>
+
+<p class=MsoNormal style='line-height:150%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='line-height:150%'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%'><o:p>&nbsp;</o:p>
+  <img src="regresar.png" alt="Regresar" width="138" height="60" border="0" usemap="#Map">
+  <map name="Map">
+    <area shape="rect" coords="5,8,136,58" href="alineal.html" target="_self" alt="Regresar a la portada">
+  </map>
+</p>
+
+</div>
+
+</body>
+
+</html>

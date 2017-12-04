@@ -1,0 +1,623 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List
+href="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/filelist.xml">
+<link rel=Edit-Time-Data
+href="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Ejercicios de Valores Propios y Vectores Propios</title>
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>75</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:11.0pt;
+	font-family:Arial;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+div.MsoNormal1 {mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:ES;
+	mso-fareast-language:ES;}
+li.MsoNormal1 {mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:ES;
+	mso-fareast-language:ES;}
+p.MsoNormal1 {mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:ES;
+	mso-fareast-language:ES;}
+p.MsoNormal1 {mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabla normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=ES-TRAD style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center'><img width=990
+height=118 id="_x0000_i1110" src=tituloalgebralineal.png><b><span lang=ES-MX
+style='mso-ansi-language:ES-MX'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal>&nbsp;</p>
+<p class=MsoNormal1 style='line-height:150%'>&nbsp;<b><span style='font-size:
+28.0pt;line-height:150%;font-family:"Adobe Garamond Pro Bold"'>Valores Propios y Vectores Propios</span></b></p>
+<p class=MsoNormal1 style='line-height:150%'><b><span style='font-size:16.0pt;
+line-height:150%;font-family:"Calligraph421 BT"'>Ejercicios de Valores Propios y Vectores Propios</span></b><span
+style='font-size:16.0pt;line-height:150%;font-family:"Calligraph421 BT"'>
+  <o:p></o:p>
+</span></p>
+<p class=MsoNormal1 style='line-height:150%'><b>Ejercicios Resueltos</b></p>
+<p class=MsoNormal>&nbsp;</p>
+<p class=MsoNormal><b><span lang=ES-MX style='mso-ansi-language:ES-MX'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>1.</span></b><span lang=ES-AR style='mso-ansi-language:
+ES-AR'>&nbsp; Encontrar los valores propios de <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image001.gif" width=104 height=68 align="absmiddle"
+id="_x0000_i1025"></sub></span></p>
+
+<p class=MsoNormal><b><span lang=ES-AR style='mso-ansi-language:ES-AR'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><span lang=ES-AR style='mso-ansi-language:ES-AR'>&nbsp;&nbsp;&nbsp;&nbsp;
+<sub><img width=372 height=75 id="_x0000_i1026"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image002.gif"></sub></span></p>
+
+<p class=MsoNormal><span lang=ES-AR style='mso-ansi-language:ES-AR'>&nbsp;&nbsp;&nbsp;&nbsp;
+<sub><img width=267 height=75 id="_x0000_i1027"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image003.gif"></sub>&nbsp;</span></p>
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><span lang=ES-MX style='mso-ansi-language:ES-MX'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;text-indent:
+-18.0pt;line-height:150%'><b><span lang=ES style='mso-ansi-language:ES'>2.</span></b><b><span
+lang=ES style='font-size:7.0pt;line-height:150%;mso-ansi-language:ES'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><span lang=ES style='mso-ansi-language:ES'>Encontrar <i>a</i> y <i>b</i>
+para que la matriz <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image004.gif" width=65 height=45 align="absmiddle" id="_x0000_i1028"></sub>&nbsp;tenga
+vector propio <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image005.gif" width=36 height=45 align="absmiddle" id="_x0000_i1029"></sub>&nbsp;asociado
+al valor propio 4</span></p>
+
+<p class=MsoNormal style='margin-left:17.85pt;line-height:150%'><b><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>Respuesta:</span></b></p>
+
+<p class=MsoNormal style='margin-left:17.85pt;line-height:150%'><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>Si <sub><img width=15 height=19
+id="_x0000_i1030"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image006.gif"></sub>&nbsp;es
+un valor propio de A y v es un vector propio asociado <span class=GramE>a</span>
+<sub><img width=15 height=19 id="_x0000_i1031"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image006.gif"></sub>,
+se verifica la igualdad <b>&nbsp;<sub><img width=57 height=21 id="_x0000_i1032"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image007.gif"></sub></b></span></p>
+<p class=MsoNormal style='margin-left:17.85pt;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:17.85pt;text-align:justify;line-height:
+150%'><sub><span lang=ES style='mso-ansi-language:ES'><img width=65 height=45
+id="_x0000_i1033"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image004.gif"><img
+width=127 height=48 id="_x0000_i1034"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image008.gif"><img
+width=65 height=45 id="_x0000_i1035"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image004.gif"><img
+width=223 height=48 id="_x0000_i1036"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image009.gif"></span></sub></p>
+<p class=MsoNormal style='margin-left:17.85pt;text-align:justify;line-height:
+150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:17.85pt;text-align:justify;line-height:
+150%'><span lang=ES style='mso-ansi-language:ES'>Resolviendo el sistema, se
+tiene:&nbsp; <sub><img width=99 height=21 id="_x0000_i1037"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image010.gif"></sub></span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span lang=ES
+style='mso-ansi-language:ES'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt'><span lang=ES style='mso-ansi-language:
+ES'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>3.</span></b><span lang=ES-AR style='mso-ansi-language:
+ES-AR'>&nbsp; Sea <i>A</i> una matriz 3x3 que tiene valores propios<b> <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image011.gif"
+width=145 height=24 align="absmiddle" id="_x0000_i1038"></sub></b></span></p>
+
+<p class=MsoNormal style='margin-left:39.6pt;text-indent:-18.0pt;line-height:
+150%'><b><span lang=ES-AR style='mso-ansi-language:ES-AR'>a)</span></b><b><span
+lang=ES-AR style='font-size:7.0pt;line-height:150%;mso-ansi-language:ES-AR'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><span lang=ES-AR style='mso-ansi-language:ES-AR'>Encontrar el
+polinomio característico de A</span></p>
+
+<p class=MsoNormal style='margin-left:39.6pt;text-indent:-18.0pt;line-height:
+150%'><b><span lang=ES-AR style='mso-ansi-language:ES-AR'>b)</span></b><b><span
+lang=ES-AR style='font-size:7.0pt;line-height:150%;mso-ansi-language:ES-AR'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><span lang=ES-AR style='mso-ansi-language:ES-AR'>Indicar cuáles de
+las siguientes matrices tienen el mismo polinomio característico:&nbsp; <sub><img
+width=137 height=26 id="_x0000_i1039"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image012.gif"></sub></span></p>
+
+<p class=MsoNormal style='margin-left:57.6pt;line-height:150%'><b><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>Respuesta:</span></b></p>
+
+<p class=MsoNormal style='margin-left:39.6pt;text-indent:-18.0pt'><b><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>a)</span></b><b><span lang=ES-AR
+style='font-size:7.0pt;mso-ansi-language:ES-AR'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>El polinomio característico de A es:</span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><b><sub><span lang=ES-AR
+style='mso-ansi-language:ES-AR'><img width=424 height=29 id="_x0000_i1040"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image013.gif"></span></sub></b></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><b><sub><span lang=ES-AR
+style='mso-ansi-language:ES-AR'><img width=157 height=28 id="_x0000_i1041"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image014.gif"></span></sub></b></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><b><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='margin-left:39.6pt;text-indent:-18.0pt'><b><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>b)</span></b><b><span lang=ES-AR
+style='font-size:7.0pt;mso-ansi-language:ES-AR'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>Los valores propios de <sub><img
+width=32 height=28 id="_x0000_i1042"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image015.gif"></sub>son
+<sub><img width=112 height=24 id="_x0000_i1043"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image016.gif"></sub></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:39.6pt'><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>Los valores propios de <sub><img width=31
+height=28 id="_x0000_i1044"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image017.gif"></sub>son
+<sub><img width=159 height=24 id="_x0000_i1045"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image018.gif"></sub></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:39.6pt'><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>Los valores propios de <sub><img width=37
+height=28 id="_x0000_i1046"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image019.gif"></sub>son
+<sub><img width=159 height=24 id="_x0000_i1047"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image018.gif"></sub></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:39.6pt'><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>Los valores propios de <sub><img width=33
+height=21 id="_x0000_i1048"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image020.gif"></sub>son
+<sub><img width=156 height=24 id="_x0000_i1049"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image021.gif"></sub></span></p>
+
+<p class=MsoNormal style='margin-left:54.0pt'><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:39.6pt'><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>&nbsp;<i>A</i><b>, </b><sub><img width=31
+height=28 id="_x0000_i1050"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image017.gif"></sub>y&nbsp;
+<sub><img width=37 height=28 id="_x0000_i1051"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image019.gif"></sub>tienen
+los mismos valores propios y, por lo tanto, el mismo polinomio característico.</span></p>
+
+<p class=MsoNormal><b><span lang=ES-AR style='mso-ansi-language:ES-AR'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><span lang=ES style='font-size:11.0pt;color:green;
+mso-ansi-language:ES'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:150%;text-autospace:none'><b>4.</b>&nbsp;
+Sea <sub><span lang=ES style='mso-ansi-language:ES'><img width=16 height=17
+id="_x0000_i1052"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image022.gif"></span></sub><i><span
+lang=ES style='mso-ansi-language:ES'>&nbsp;</span></i>una matriz
+simétrica&nbsp; perteneciente<i> a&nbsp; </i><sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image023.gif" width=43 height=24 align="texttop"
+id="_x0000_i1053"></sub>&nbsp;tal
+que los valores propios son 1 y 9 <i>&nbsp;</i>y sea <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image024.gif" width=49
+height=48 align="absmiddle" id="_x0000_i1054"></sub>un
+vector propio asociado al valor propio 1. Hallar, justificando las respuestas:</p>
+
+<p class=MsoNormal style='line-height:150%;text-autospace:none'><b>a)</b>&nbsp;&nbsp;
+La multiplicidad geométrica del valor propio 1</p>
+
+<p class=MsoNormal style='line-height:150%;text-autospace:none'><b>&nbsp;</b></p>
+
+<p class=MsoNormal style='line-height:150%;text-autospace:none'><b>b)</b> La
+forma de cualquier vector del espacio propio de 1</p>
+
+<p class=MsoNormal style='line-height:150%;text-autospace:none'><b>c)</b>&nbsp;&nbsp;
+Un vector propio asociado al valor propio 9.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-indent:-18.0pt;line-height:
+150%;text-autospace:none'><b>d)</b><b><span style='font-size:7.0pt;line-height:
+150%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b>La matriz <sub><span lang=ES
+style='mso-ansi-language:ES'><img width=16 height=17 id="_x0000_i1055"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image022.gif"></span></sub>.</p>
+
+<p class=MsoNormal style='margin-left:3.6pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'><b>Respuesta</b></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'><b>a)</b>&nbsp; El valor propio 1 tiene multiplicidad geométrica 1 pues:</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>Al tener A 2 valores propios distintos, la multiplicidad algebraica de
+cada uno de ellos es 1</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>Por otro lado se sabe que <sub><img width=133 height=24 id="_x0000_i1056"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image025.gif"></sub>.
+Luego, <sub><img width=71 height=24 id="_x0000_i1057"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image026.gif"></sub></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'><span style='font-size:10.0pt;line-height:150%;font-family:Arial'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'><b>b)</b>&nbsp; El espacio propio tiene dimensión 1, por lo cual <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image027.gif"
+width=40 height=51 align="absmiddle" id="_x0000_i1058"></sub>&nbsp;es
+una base del espacio. Luego, la forma de cualquier vector del espacio propio de
+<sub><img width=37 height=19 id="_x0000_i1059"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image028.gif"></sub>&nbsp;es
+<sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image029.gif" width=27 height=48 align="absmiddle" id="_x0000_i1060"></sub></p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'><b>c)</b>&nbsp; Se sabe que si A es&nbsp; simétrica, los vectores propios
+asociados a valores propios distintos son ortogonales.</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>Si <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image030.gif" width=27 height=48 align="absmiddle" id="_x0000_i1061"></sub>&nbsp;es
+un vector propio asociado <sub><img width=39 height=19 id="_x0000_i1062"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image031.gif"></sub>,
+se verifica que <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image032.gif" width=84 height=48 align="absmiddle" id="_x0000_i1063"></sub>.
+Luego <sub><img width=61 height=19 id="_x0000_i1064"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image033.gif"></sub>.</p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>Un vector propio asociado al valor propio 9 tiene la forma <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image034.gif"
+width=39 height=48 align="absmiddle" id="_x0000_i1065"></sub>&nbsp;</p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'><b>d)</b>&nbsp; A es simétrica, por lo cual tiene la forma <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image035.gif"
+width=77 height=48 align="absmiddle" id="_x0000_i1066"></sub></p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>Se sabe que <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image036.gif" width=316 height=48 align="absmiddle" id="_x0000_i1067"></sub>&nbsp;&nbsp;(*)</p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>Luego A tiene la forma <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image037.gif" width=117 height=48 align="absmiddle" id="_x0000_i1068"></sub></p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>Puesto que <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image038.gif" width=36 height=48 align="absmiddle" id="_x0000_i1069"></sub>&nbsp;es
+un vector propio asociado <span class=GramE>a</span> <sub><img width=39
+height=19 id="_x0000_i1070"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image031.gif"></sub>,
+se tiene:</p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'><sub><img width=388 height=48 id="_x0000_i1071"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image039.gif"></sub></p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>Teniendo en cuenta (*), se obtiene <sub><img width=61 height=19
+id="_x0000_i1072"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image040.gif"></sub></p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>La matriz A es <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image041.gif" width=103 height=48 align="absmiddle" id="_x0000_i1073"></sub></p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%;text-autospace:
+none'>&nbsp;</p>
+
+<p class=MsoNormal><b>Ejercicios Propuestos</b></p>
+
+<p class=MsoNormal><b><span lang=ES-AR style='mso-ansi-language:ES-AR'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>1.</span></b><span lang=ES-AR style='mso-ansi-language:
+ES-AR'>&nbsp; Determinar una matriz no diagonal 2x2 cuyos valores propios
+sean&nbsp; 2&nbsp; y&nbsp; –<span class=GramE>3 ,</span> con vectores propios <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image042.gif"
+width=33 height=45 align="absmiddle" id="_x0000_i1074"></sub>&nbsp;y&nbsp;
+<sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image043.gif" width=23 height=45 align="absmiddle" id="_x0000_i1075"></sub>,
+respectivamente.</span></p>
+
+<p class=MsoNormal style='margin-left:31.2pt;text-align:justify'><b><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>Respuesta</span></b><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>: <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image044.gif" width=109 height=64 align="absmiddle"
+id="_x0000_i1076"></sub></span></p>
+<p class=MsoNormal style='margin-left:31.2pt;text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal><b>&nbsp;</b></p>
+
+<p class=MsoNormal style='line-height:150%'><b>2.</b>&nbsp; <span lang=ES-AR
+style='mso-ansi-language:ES-AR'>Para la matriz <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image045.gif" width=108 height=68 align="absmiddle"
+id="_x0000_i1077"></sub>&nbsp;y
+sin calcular <sub><img width=29 height=23 id="_x0000_i1078"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image046.gif"></sub>,
+<sub><img width=20 height=23 id="_x0000_i1079"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image047.gif"></sub>,
+<sub><img width=23 height=23 id="_x0000_i1080"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image048.gif"></sub>&nbsp;y&nbsp;
+<sub><img width=28 height=23 id="_x0000_i1081"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image049.gif"></sub>,
+determine si las siguientes afirmaciones son verdaderas o falsas:</span></p>
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=ES-AR style='mso-ansi-language:
+ES-AR'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>a)</b>&nbsp; <sub><img width=21
+height=23 id="_x0000_i1082"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image050.gif"></sub>,
+<sub><img width=29 height=23 id="_x0000_i1083"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image046.gif"></sub>&nbsp;y&nbsp;
+<sub><img width=20 height=23 id="_x0000_i1084"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image047.gif"></sub>&nbsp;tienen
+los mismos valores propios con la misma multiplicidad</span></p>
+
+<p class=MsoNormal style='line-height:150%'><span lang=ES-AR style='mso-ansi-language:
+ES-AR'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<span
+class=GramE>algebraica</span> </span></p>
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:18.0pt;line-height:150%'><b><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>b)</span></b><span lang=ES-AR
+style='mso-ansi-language:ES-AR'>&nbsp; <sub><img width=23 height=24
+id="_x0000_i1085"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image051.gif"></sub>&nbsp;y&nbsp;
+<sub><img width=28 height=23 id="_x0000_i1086"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image049.gif"></sub>&nbsp;tienen
+los mismos valores propios con la misma multiplicidad algebraica</span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;line-height:
+150%'><span class=SpellE><b><span lang=ES style='mso-ansi-language:ES'>Rta</span></b></span><b><span
+lang=ES style='mso-ansi-language:ES'>:<span class=GramE>&nbsp; a</span>) </span></b><span
+lang=ES style='mso-ansi-language:ES'>es verdadera y&nbsp; <b>b)</b> es falsa</span></p>
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify;line-height:
+150%'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%'><b><span
+lang=ES style='mso-ansi-language:ES'>3.</span></b><span lang=ES
+style='mso-ansi-language:ES'>&nbsp; Sean&nbsp; <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image052.gif" width=99 height=68 align="absmiddle"
+id="_x0000_i1087"></sub>;
+<sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image053.gif" width=101 height=68 align="absmiddle" id="_x0000_i1088"></sub>&nbsp;y&nbsp;
+<sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image054.gif" width=100 height=68 align="absmiddle" id="_x0000_i1089"></sub>.
+Hallar <sub><img width=24 height=13 id="_x0000_i1090"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image055.gif"></sub>&nbsp;y
+<sub><img width=24 height=16 id="_x0000_i1091"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image056.gif"></sub>para
+los valores propios de cada matriz.</span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt;text-align:justify;line-height:
+150%'><span class=SpellE><b><span lang=ES style='mso-ansi-language:ES'>Rta</span></b></span><b><span
+lang=ES style='mso-ansi-language:ES'>:</span></b></p>
+
+<p class=MsoNormal style='margin-left:35.4pt;text-align:justify;line-height:
+150%'><span lang=ES style='mso-ansi-language:ES'>La matriz <sub><img width=20
+height=23 id="_x0000_i1092"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image057.gif"></sub>&nbsp;tiene
+el valor propio <sub><img width=40 height=19 id="_x0000_i1093"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image058.gif"></sub>con
+<sub><img width=96 height=21 id="_x0000_i1094"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image059.gif"></sub>&nbsp;y&nbsp;
+<sub><img width=97 height=21 id="_x0000_i1095"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image060.gif"></sub></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt;text-align:justify;line-height:
+150%'><span lang=ES style='mso-ansi-language:ES'>La matriz <sub><img width=23
+height=23 id="_x0000_i1096"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image061.gif"></sub>&nbsp;tiene
+el valor propio <sub><img width=40 height=19 id="_x0000_i1097"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image058.gif"></sub>con
+<sub><img width=96 height=21 id="_x0000_i1098"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image059.gif"></sub>&nbsp;y&nbsp;
+<sub><img width=99 height=21 id="_x0000_i1099"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image062.gif"></sub></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt;text-align:justify;line-height:
+150%'><span lang=ES style='mso-ansi-language:ES'>La matriz <sub><img width=21
+height=24 id="_x0000_i1100"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image063.gif"></sub>&nbsp;tiene
+el valor propio <sub><img width=40 height=19 id="_x0000_i1101"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image058.gif"></sub>con
+<sub><img width=96 height=21 id="_x0000_i1102"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image059.gif"></sub>&nbsp;y&nbsp;
+<sub><img width=95 height=21 id="_x0000_i1103"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image064.gif"></sub></span></p>
+<p class=MsoNormal style='margin-left:35.4pt;text-align:justify;line-height:
+150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>4.</span></b><span lang=ES-MX style='mso-ansi-language:
+ES-MX'>&nbsp; Sea <sub><img width=87 height=21 id="_x0000_i1104"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image065.gif"></sub>&nbsp;y
+sea <sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image066.gif" width=100 height=75 align="absmiddle" id="_x0000_i1105"></sub>su
+matriz asociada&nbsp; respecto a las bases canónicas. ¿Es posible hallar una
+base de <sub><img width=23 height=21 id="_x0000_i1106"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image067.gif"></sub>&nbsp;cuyos
+elementos sean vectores propios de <sub><img width=15 height=17
+id="_x0000_i1107"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image068.gif"></sub>?
+Justifique.</span></p>
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:35.4pt;line-height:150%'><span
+class=SpellE><b><span lang=ES-MX style='mso-ansi-language:ES-MX'>Rta</span></b></span><b><span
+lang=ES-MX style='mso-ansi-language:ES-MX'>: </span></b><i><span lang=ES-MX
+style='mso-ansi-language:ES-MX'>T</span></i><span lang=ES-MX style='mso-ansi-language:
+ES-MX'> tiene dos valores propios distintos: 0 y 1. La multiplicidad geométrica
+del valor propio cero es 2, por lo cual <i>T</i> tiene dos vectores propios
+independientes asociados al valor propio 0. Si se agrega a ellos un vector
+propio de t asociado al valor propio 1, se tiene una base de <sub><img
+width=23 height=21 id="_x0000_i1108"
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image067.gif"></sub>&nbsp;formada
+por vectores propios de <i>T</i>.</span></p>
+<p class=MsoNormal style='margin-left:35.4pt;line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'><b><span lang=ES style='mso-ansi-language:
+ES'>5.</span></b><span lang=ES style='mso-ansi-language:ES'>&nbsp; Obtenga dos
+vectores propios de la matriz<sub><img
+src="Ejercicios%20de%20Valores%20Propios%20y%20Vectores%20Propios_archivos/image069.gif" width=72 height=75 align="absmiddle" id="_x0000_i1109"></sub>
+que sean ortogonales.</span></p>
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:35.4pt;line-height:150%'><span
+class=SpellE><b><span lang=ES-AR style='mso-ansi-language:ES-AR'>Rta</span></b></span><b><span
+lang=ES-AR style='mso-ansi-language:ES-AR'>:<span class=GramE>&nbsp; <span
+style='font-weight:normal'>La</span></span></span></b><span lang=ES-AR
+style='mso-ansi-language:ES-AR'> matriz A tiene dos valores propios distintos:
+0 y 2.<b> </b>Al ser A simétrica, basta conseguir dos vectores propios
+correspondientes a los valores propios distintos.</span></p>
+
+</div>
+<p><img src="glosario/regresar.gif" alt="Regresar a la portada" width="138" height="60" border="0" usemap="#Map">
+  <map name="Map">
+    <area shape="rect" coords="4,5,128,50" href="alineal.html" target="_self" alt="Regresar a la portada">
+  </map>
+</p>
+</body>
+
+</html>

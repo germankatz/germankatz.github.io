@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>mariel</dc:creator>
+    <dc:title>Transformaciones Lineales</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Transformaciones Lineales</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>&amp;#x003C;img src=&quot;iso1.JPG&quot; alt=&quot;iso1.JPG&quot; title=&quot;iso1&quot; width=&quot;82&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;definida por &amp;#x003C;img src=&quot;iso11.JPG&quot; alt=&quot;iso11.JPG&quot; title=&quot;iso11&quot; width=&quot;127&quot; height=&quot;30&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Incorrecto. La transformaci&amp;#x00F3;n no es inyectiva. Por ejemplo, T(2,3,1)=T(2,3,5)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text></text><feedback></feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso2.JPG&quot; alt=&quot;iso2.JPG&quot; title=&quot;iso2&quot; width=&quot;80&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E; sabiendo que T es sobre y S es el espacio de las matrices sim&amp;#x00E9;tricas 2x2</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Es incorrecto. La transformaci&amp;#x00F3;n es un isomorfismo ya que es una aplicaci&amp;#x00F3;n lineal sobreyectiva entre dos espacios que tienen la misma dimensi&amp;#x00F3;n.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso3.JPG&quot; alt=&quot;iso3.JPG&quot; title=&quot;iso3&quot; width=&quot;89&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;, sabiendo que T(1, 0, 0) = (0, 0, 0)</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Incorrecto. T no es una transformaci&amp;#x00F3;n inyectiva: el vector (1,0,0) pertenece al n&amp;#x00FA;cleo de T.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso4.JPG&quot; alt=&quot;iso4.JPG&quot; title=&quot;iso4&quot; width=&quot;89&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;, sabiendo que T(1, 0) = (1, 0, 1) y  T(0, 1) = (1, 1, 1)</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Es incorrecto. T no es un isomorfismo: los espacios que conecta no tienen la misma dimensi&amp;#x00F3;n.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso5.JPG&quot; alt=&quot;iso5.JPG&quot; title=&quot;iso5&quot; width=&quot;89&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;, sabiendo que una matriz asociada a T es &amp;#x003C;img src=&quot;iso51.JPG&quot; alt=&quot;iso51.JPG&quot; title=&quot;iso51&quot; width=&quot;50&quot; height=&quot;49&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Es incorrecto. La matriz &amp;#x003C;img src=&quot;iso51.JPG&quot; alt=&quot;iso51.JPG&quot; title=&quot;iso51&quot; width=&quot;50&quot; height=&quot;49&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E; no es invertible.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso5.JPG&quot; alt=&quot;iso5.JPG&quot; title=&quot;iso5&quot; width=&quot;89&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E; definida por &amp;#x003C;img src=&quot;iso61.JPG&quot; alt=&quot;iso61.JPG&quot; title=&quot;iso61&quot; width=&quot;98&quot; height=&quot;49&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Es incorrecto. No es isomorfismo. Por ejemplo, &amp;#x003C;img src=&quot;iso62.JPG&quot; alt=&quot;iso62.JPG&quot; title=&quot;iso62&quot; width=&quot;89&quot; height=&quot;49&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso7.JPG&quot; alt=&quot;iso7.JPG&quot; title=&quot;iso7&quot; width=&quot;115&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;, definida por &amp;#x003C;img src=&quot;iso71.JPG&quot; alt=&quot;iso71.JPG&quot; title=&quot;iso71&quot; width=&quot;174&quot; height=&quot;49&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Es incorrecto. T no es un isomorfismo: los espacios que conecta no tienen la misma dimensi&amp;#x00F3;n.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso3.JPG&quot; alt=&quot;iso3.JPG&quot; title=&quot;iso3&quot; width=&quot;89&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;, sabiendo que &amp;#x003C;img src=&quot;iso81.JPG&quot; alt=&quot;iso81.JPG&quot; title=&quot;iso81&quot; width=&quot;287&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Incorrecto. T no es sobreyectiva. La dimensi&amp;#x00F3;n de la imagen de T es 2, menor que la dimensi&amp;#x00F3;n del conjunto de llegada.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback></feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso91.JPG&quot; alt=&quot;iso91.JPG&quot; title=&quot;iso91&quot; width=&quot;83&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E; sabiendo que &amp;#x003C;img src=&quot;iso92.JPG&quot; alt=&quot;iso92.JPG&quot; title=&quot;iso92&quot; width=&quot;163&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Incorrecto. T no es un isomorfismo ya que no es inyectiva. Por ejemplo, T(2, 6, 5) = T(2, 4, 3)</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso10.JPG&quot; alt=&quot;iso10.JPG&quot; title=&quot;iso10&quot; width=&quot;79&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;, sabiendo que T es sobre y que S es el espacio de las matrices diagonales 2x2</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Incorrecto. T es un isomorfismo: es sobreyectiva y los espacios que conecta tienen la misma dimensi&amp;#x00F3;n.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso3.JPG&quot; alt=&quot;iso3.JPG&quot; title=&quot;iso3&quot; width=&quot;89&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;, sabiendo que si A es una matriz asociada a T, el sistema Ax=0 tiene soluci&amp;#x00F3;n &amp;#x00FA;nica.</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Es incorrecto. El sistema tiene soluci&amp;#x00F3;n &amp;#x00FA;nica si y s&amp;#x00F3;lo si la nulidad de A es cero. La nulidad de A es igual a la de T, luego T es una aplicaci&amp;#x00F3;n inyectiva entre dos espacios de igual dimensi&amp;#x00F3;n.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record><question-record><question>&amp;#x003C;img src=&quot;iso3.JPG&quot; alt=&quot;iso3.JPG&quot; title=&quot;iso3&quot; width=&quot;89&quot; height=&quot;28&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;, tal que &amp;#x003C;img src=&quot;iso12.JPG&quot; alt=&quot;iso12.JPG&quot; title=&quot;iso12&quot; width=&quot;142&quot; height=&quot;66&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>1</question-type><answers><answer><text>Es isomorfismo</text><feedback>No es correcto. El n&amp;#x00FA;cleo de T tiene dimensi&amp;#x00F3;n 2; luego T no es inyectiva.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>No es isomorfismo</text><feedback>Correcto!</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Isomorfismos</exercise-subtitle>
+<instructions>Indica si las siguientes transformaciones lineales son isomorfismos</instructions>
+<guess-correct>Correcto!</guess-correct>
+<guess-incorrect>Incorrecto.</guess-incorrect>
+<partly-incorrect>Tu respuesta es parcialmente incorrecta </partly-incorrect>
+<enter-a-guess>Por favor, introduce una respuesta.</enter-a-guess>
+<next-correct-letter>Siguiente letra correcta: </next-correct-letter>
+<correct-answers>Respuesta correcta: </correct-answers>
+<show-answer-caption>Mostrar respuesta</show-answer-caption>
+<include-hint>0</include-hint>
+<include-show-answer>1</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>1</shuffle-questions>
+<shuffle-answers>0</shuffle-answers>
+<show-limited-questions>1</show-limited-questions>
+<questions-to-show>10</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Tu puntaje es:</your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<correct-first-time>Respuestas correctas al primer intento: </correct-first-time>
+<completed-so-far>Preguntas respondidas hasta ahora: </completed-so-far>
+<exercise-completed>Ejercicio completado.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>0</include-next-ex>
+<include-contents>0</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>small</font-size>
+<page-bg-color>#a4af7a</page-bg-color>
+<title-color>#ffffff</title-color>
+<ex-bg-color>#c9d0b0</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#c9d0b0</link-color>
+<vlink-color>#c9d0b0</vlink-color>
+<nav-bar-color>#808000</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Respuestas correctas al primer intento: </correct-first-time>
+<check-caption>Comprobar respuesta</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>Siguiente pregunta</next-q-caption>
+<last-q-caption>Pregunta anterior</last-q-caption>
+<hint-caption>Pedir ayuda</hint-caption>
+<show-all-questions-caption>Mostrar todas las preguntas</show-all-questions-caption>
+<show-one-by-one-caption>Mostrar preguntas una por una</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>

@@ -40,14 +40,16 @@ header{
     background-position: left top;
 }
 .bg1{
-	width: 100%;
-	height: auto;
-	background-size: cover;
+	  display: block;
+	  width: 100vw;
+  	height: 100vh;
+  	object-fit: cover;
 }
 .bg2{
-	width: 100%;
-	height: auto;
-	background-size: cover;
+	  display: block;
+	  width: 100vw;
+  	height: 100vh;
+  	object-fit: cover;
 }
 .container-min{
 	width: 600px;

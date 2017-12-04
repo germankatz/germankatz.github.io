@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jquiz-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>mariel</dc:creator>
+    <dc:title>Espacios Vectoriales</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Espacios Vectoriales</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<questions><question-record><question>Sea A una matriz mxn con rg(A)=r; r&amp;#x003C;m ; r&amp;#x003C;n. Entonces:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Las m filas de A forman un conjunto linealmente independiente</text><feedback>El rango de una matriz indica el m&amp;#x00E1;ximo n&amp;#x00FA;mero de filas  independientes que tiene la matriz. Por tanto. A no tiene m filas independientes pues rg(A) es menor que m</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Las n columnas de A forman un conjunto linealmente dependiente</text><feedback>El rango de una matriz indica el m&amp;#x00E1;ximo n&amp;#x00FA;mero de columnas independientes que tiene la matriz. Luego. las n columnas de A forman un conjunto linealmente dependiente pues el rg(A) es menor que n</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Existen r filas de A que forman un conjunto linealmente independiente</text><feedback>Si el rango es r, la matriz tiene r filas independientes</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Existen r columnas de A que forman un conjunto linealmente independiente</text><feedback>Si el rango es r, la matriz tiene r columnas independientes</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>El sistema Ax=0 puede ser ya sea determinado, ya sea indeterminado, dependiendo ello de los valores que tengan m, n y r</text><feedback>El sistema Ax=0 es un sistema homog&amp;#x00E9;neo con n inc&amp;#x00F3;gnitas. Por ser el rango de A menor que el n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas, el sistema no puede ser determinado, sean cu&amp;#x00E1;les fueran los valores de m, n y r</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>El sistema Ax=0 s&amp;#x00F3;lo puede ser determinado</text><feedback>El sistema Ax=0 es un sistema homog&amp;#x00E9;neo con n inc&amp;#x00F3;gnitas. Por ser el rango de A menor que el n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas, el sistema no puede ser determinado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>El sistema Ax=0 s&amp;#x00F3;lo puede ser indeterminado</text><feedback>El sistema Ax=0 es un sistema homog&amp;#x00E9;neo con n inc&amp;#x00F3;gnitas. Por ser el rango de A menor que el n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas, el sistema no puede ser determinado. Por tanto, s&amp;#x00F3;lo puede ser indeterminado.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Si m=n, el determinante de A es cero</text><feedback>Si m=n, el determinante de A es cero, pues no todas sus columnas son independientes ya que el rango es menor que n</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Si m=n, A es invertible</text><feedback>A&amp;#x00FA;n con m=n,  A no es invertible, pues no todas sus columnas son independientes ya que el rango es menor que n</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Cualquira sea b, el sistema Ax=b no tiene soluci&amp;#x00F3;n &amp;#x00FA;nica</text><feedback>A&amp;#x00FA;n siendo compatible, el sistema Ax=b no tendr&amp;#x00E1; soluci&amp;#x00F3;n &amp;#x00FA;nica dado que el rango de A es menor que el n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Sea A una matriz mxn con m&amp;#x003E;n ; rg(A)=n. Entonces:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Todas las filas de A forman un conjunto linealmente dependiente</text><feedback>El rango de una matriz indica el m&amp;#x00E1;ximo n&amp;#x00FA;mero de filas independientes que tiene la matriz. Por tanto. las m filas de A forman un conjunto linealmente dependiente pues rg(A) es menor que m</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Todas las columnas de A forman un conjunto linealmente independiente</text><feedback>El rango de una matriz indica el m&amp;#x00E1;ximo n&amp;#x00FA;mero de columnas independientes que tiene la matriz. Puesto que el rango es n, las n columnas son independientes</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>El sistema Ax=0 puede ser determinado o indeterminado, dependiendo ello de los valores que tengan m y n</text><feedback>El sistema Ax=0 es un sistema homog&amp;#x00E9;neo con n inc&amp;#x00F3;gnitas. Por ser el rango de A igual al n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas, el sistema no puede ser indeterminado, sean cu&amp;#x00E1;les fueran los valores de m y n</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>El sistema Ax=0 s&amp;#x00F3;lo puede ser determinado</text><feedback>El sistema Ax=0 es un sistema homog&amp;#x00E9;neo con n inc&amp;#x00F3;gnitas. Por ser el rango de A igual al n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas, el sistema s&amp;#x00F3;lo puede ser determinado.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Cualquiera sea b , el sistema Ax=b es incompatible</text><feedback>En el sistema Ax=b, b puede ser o no combinaci&amp;#x00F3;n lineal de las columnas de A. En el primer caso, el sistema es compatible; en el segundo, es incompatible.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Cualquiera sea b, el sistema Ax=b es indeterminado</text><feedback>A&amp;#x00FA;n cuando Ax=b tenga soluci&amp;#x00F3;n, no puede ser indeterminado ya que el rango de A es igual al n&amp;#x00FA;mero de columnas.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Cualquiera sea b, el sistema Ax=b es determinado</text><feedback>En el sistema Ax=b, b puede ser o no combinaci&amp;#x00F3;n lineal de las columnas de A. En caso de no serlo, el sistema no ser&amp;#x00E1; compatible y por lo tanto, no ser&amp;#x00E1; determinado.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Si b pertenece al espacio columna de A, el sistema Ax=b tiene soluci&amp;#x00F3;n &amp;#x00FA;nica</text><feedback>En el sistema Ax=b, si b es  combinaci&amp;#x00F3;n lineal de las columnas de A, el sistema es compatible. En ese caso, adem&amp;#x00E1;s, el sistema tendr&amp;#x00E1; soluci&amp;#x00F3;n &amp;#x00FA;nica, pues el rango de A es igual al n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Si b pertenece al espacio columna de A, el sistema Ax=b tiene infinitas soluciones</text><feedback>A&amp;#x00FA;n siendo compatible, el sistema Ax=b no puede tener infinitas soluciones dado que el rango de A es igual al n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Entre las filas de A s&amp;#x00F3;lo pueden encontrarse n linealmente independientes</text><feedback>El rango de una matriz indica el m&amp;#x00E1;ximo n&amp;#x00FA;mero de filas  independientes que tiene la matriz. Si A tiene rango n, entre las filas de A s&amp;#x00F3;lo pueden encontrarse n linealmente independientes</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Si b pertenece al espacio columna de A, el sistema Ax=b tiene infinitas soluciones</text><feedback>A&amp;#x00FA;n siendo compatible, el sistema Ax=b no puede tener infinitas soluciones dado que el rango de A es igual al n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Entre las filas de A s&amp;#x00F3;lo pueden encontrarse n linealmente independientes</text><feedback>El rango de una matriz indica el m&amp;#x00E1;ximo n&amp;#x00FA;mero de filas  independientes que tiene la matriz. Si A tiene rango n, entre las filas de A s&amp;#x00F3;lo pueden encontrarse n linealmente independientes</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record><question-record><question>Sea A una matriz mxn con m&amp;#x003C;n ; rg(A)=m. Entonces:</question><clue></clue><category></category><weighting>100</weighting><fixed>0</fixed><question-type>4</question-type><answers><answer><text>Todas las filas de A forman un conjunto linealmente dependiente</text><feedback>El rango de una matriz indica el m&amp;#x00E1;ximo n&amp;#x00FA;mero de filas independientes que tiene la matriz. Por tanto. las m filas de A no forman un conjunto dependiente pues el rango es m.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Todas las columnas de A forman un conjunto linealmente independiente</text><feedback>Las columnas de A no pueden ser independientes, ya que n es mayor que el rango. que indica el m&amp;#x00E1;ximo n&amp;#x00FA;mero de columnas independientes.</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>El sistema Ax=0 puede resultar a veces determinado y a veces  indeterminado, dependiendo ello de los valores que tengan m y n</text><feedback>El sistema Ax=0 es un sistema homog&amp;#x00E9;neo con n inc&amp;#x00F3;gnitas. Por ser el rango de A menor que el n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas, el sistema no puede ser determinado, sean cu&amp;#x00E1;les fueran los valores de m y n</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>El sistema Ax=0 s&amp;#x00F3;lo puede ser indeterminado</text><feedback>El sistema Ax=0 es un sistema homog&amp;#x00E9;neo con n inc&amp;#x00F3;gnitas. Por ser el rango de A menor que el n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas, el sistema no puede ser determinado. Luego, Ax=0 s&amp;#x00F3;lo puede ser indeterminado.</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Cualquiera sea b , el sistema Ax=b es incompatible</text><feedback>El sistema Ax=b  puede ser incompatible, pero ello depende de que b no sea combinaci&amp;#x00F3;n de las columnas de A</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Cualquiera sea b, el sistema Ax=b es indeterminado</text><feedback>El sistema Ax=b  puede ser indeterminado, pero ello depende de que b sea combinaci&amp;#x00F3;n de las columnas de A</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Cualquiera sea b, el sistema Ax=b es determinado</text><feedback>El sistema Ax=b no puede ser determinado para ning&amp;#x00FA;n b pues el rango de A es menor que el n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Si b pertenece al espacio columna de A, el sistema Ax=b tiene soluci&amp;#x00F3;n &amp;#x00FA;nica</text><feedback>Si b pertenece al espacio columna de A , el sistema Ax=b tiene soluci&amp;#x00F3;n, pero no puede tener soluci&amp;#x00F3;n &amp;#x00FA;nica pues el rango de A es menor que el n&amp;#x00FA;mero de inc&amp;#x00F3;gnitas</feedback><correct>0</correct><percent-correct>0</percent-correct><include-in-mc-options>1</include-in-mc-options></answer><answer><text>Entre las columnas de A s&amp;#x00F3;lo pueden encontrarse m linealmente independientes</text><feedback>El rango de A es m y este n&amp;#x00FA;mero indica el m&amp;#x00E1;ximo n&amp;#x00FA;mero de columnas independientes</feedback><correct>1</correct><percent-correct>100</percent-correct><include-in-mc-options>1</include-in-mc-options></answer></answers><must-select-all>1</must-select-all></question-record></questions>
+</data>
+
+<hotpot-config-file>
+<jquiz>
+<exercise-subtitle>Rango de una matriz</exercise-subtitle>
+<instructions>En cada pregunta, selecciona todas las respuestas verdaderas entre las opciones que se ofrecen. 
+Al finalizar tu selecci&amp;#x00F3;n, haciendo click en &quot;Mostrar respuesta&quot; aparecer&amp;#x00E1; el total de respuestas correctas obtenidas sobre la cantidad de enunciados propuestos. 
+Se computar&amp;#x00E1;n como correctas tanto las afirmaciones verdaderas se&amp;#x00F1;aladas como las afirmaciones falsas no se&amp;#x00F1;aladas.
+En el caso en que no todas tus respuestas sean correctas, se te mostrar&amp;#x00E1; una indicaci&amp;#x00F3;n o ayuda sobre alguna que debes corregir, ya sea porque era verdadera y no fue marcada o bien porque era falsa y fue se&amp;#x00F1;alada.
+</instructions>
+<guess-correct>Correcto!</guess-correct>
+<guess-incorrect>Incorrecto.</guess-incorrect>
+<partly-incorrect>Tu respuesta es parcialmente incorrecta </partly-incorrect>
+<enter-a-guess>Por favor, introduce una respuesta.</enter-a-guess>
+<next-correct-letter>Siguiente letra correcta: </next-correct-letter>
+<correct-answers>Respuesta correcta: </correct-answers>
+<show-answer-caption>Mostrar respuesta</show-answer-caption>
+<include-hint>0</include-hint>
+<include-show-answer>0</include-show-answer>
+<next-ex-url>nextpage.htm</next-ex-url>
+<send-email>0</send-email>
+<continuous-scoring>1</continuous-scoring>
+<show-correct-first-time>1</show-correct-first-time>
+<shuffle-questions>1</shuffle-questions>
+<shuffle-answers>1</shuffle-answers>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>10</questions-to-show>
+<short-answer-tries-on-hybrid-q>2</short-answer-tries-on-hybrid-q>
+<separate-javascript-file>0</separate-javascript-file>
+<case-sensitive>0</case-sensitive>
+<include-keypad>0</include-keypad>
+</jquiz>
+
+<global>
+<your-score-is>Tu puntaje es:</your-score-is>
+<correct-indicator>:-)</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<correct-first-time>Respuestas correctas al primer intento: </correct-first-time>
+<completed-so-far>Preguntas respondidas hasta ahora: </completed-so-far>
+<exercise-completed>Ejercicio completado.</exercise-completed>
+<keypad-characters></keypad-characters>
+<times-up>Your time is over!</times-up>
+<next-ex-caption>=&amp;#x003E;</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>0</include-next-ex>
+<include-contents>0</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>small</font-size>
+<page-bg-color>#bea6f0</page-bg-color>
+<title-color>#ffffff</title-color>
+<ex-bg-color>#ebd3f8</ex-bg-color>
+<text-color>#000000</text-color>
+<link-color>#ebd3f8</link-color>
+<vlink-color>#ebd3f8</vlink-color>
+<nav-bar-color>#b396ed</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+<correct-first-time>Respuestas correctas al primer intento: </correct-first-time>
+<check-caption>Comprobar respuesta</check-caption>
+<ok-caption>OK</ok-caption>
+<next-q-caption>Siguiente pregunta</next-q-caption>
+<last-q-caption>Pregunta anterior</last-q-caption>
+<hint-caption>Pedir ayuda</hint-caption>
+<show-all-questions-caption>Mostrar todas las preguntas</show-all-questions-caption>
+<show-one-by-one-caption>Mostrar preguntas una por una</show-one-by-one-caption>
+<show-also-correct>1</show-also-correct>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+</global>
+</hotpot-config-file>
+</hotpot-jquiz-file>
