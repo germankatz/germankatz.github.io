@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prueba Ciclos</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+    <style> @-ms-viewport { width: device-width; } </style>
+    <link rel="stylesheet" href="vendor/reset.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e471ae9acf.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="multiple-scenes">
+
+    <div id="pano"></div>
+    <nav class="navbar navbar-dark rounded m-4" style="background: rgb(0, 0, 0, 0.3);">
+
+        <div id="titulo-ambiente" class="d-none"></div>
+        <span class="navbar-brand row">
+            <div class="col">
+                <img src="https://lh3.googleusercontent.com/proxy/kTNXH2Tg6Jd4TN1nbhey5mwmEtgobgeRenlYo7kVg5ZvQvjoFgE8Ip3dVrqJJp27x8M6xLEMuZwrSPjniNt-1pD_kLloP_muCOwcZYRBScm-hkQBISeKGnw7hlOg" class="image-inmo">
+            </div>
+            <div class="divider"></div>
+            <div class="col">
+                <h5 class="card-title">Departamento centrico - La paz 641</h5>
+                <h6 class="card-subtitle mb-2 font-weight-normal" style="opacity: 0.5">Alquiler</h6>
+            </div>
+        </span>
+        <span class="navbar-text">
+            <span data-toggle="modal" data-target="#mapModal">
+                <button type="button" class="btn" style="color:white;" data-toggle="tooltip" data-placement="top" title="Ver mapa"><i class="fas fa-map-marked-alt fa-lg"></i></button>
+            </span>
+            <button type="button" class="btn" style="color:white;" data-toggle="tooltip" data-placement="top" title="Ver escenas" onclick="openNav()"><i class="fas fa-border-all fa-lg"></i></button>
+            <button type="button" class="btn" style="color:white;" data-toggle="modal" data-target="#infoModal"><i class="fas fa-info-circle fa-lg"></i></button>
+            <div >
+                <button type="button" class="btn btn-primary d-none" id="autorotateToggle"></button>
+                <button type="button" class="btn btn-primary d-none" id="fullscreenToggle">Fullscreen</button>
+            </div>
+        </span>
+    </nav>
+
+    <a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+      <img class="icon" src="img/up.png">
+    </a>
+    <a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+      <img class="icon" src="img/down.png">
+    </a>
+    <a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+      <img class="icon" src="img/left.png">
+    </a>
+    <a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+      <img class="icon" src="img/right.png">
+    </a>
+    <a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+      <img class="icon" src="img/plus.png">
+    </a>
+    <a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+      <img class="icon" src="img/minus.png">
+    </a>
+
+    <script src="vendor/es5-shim.js"></script>
+    <script src="vendor/eventShim.js"></script>
+    <script src="vendor/classList.js"></script>
+    <script src="vendor/requestAnimationFrame.js" ></script>
+    <script src="vendor/screenfull.min.js" ></script>
+    <script src="vendor/bowser.min.js" ></script>
+    <script src="vendor/marzipano.js" ></script>
+
+    <script src="data.js"></script>
+    <script src="addons.js"></script>
+    <script src="index.js"></script>
+
+
+    <div class="bottom-icons">
+        <button type="button" class="button rounded-circle" ><i class="fas fa-share-alt fa-lg"></i></button>
+        <button type="button" class="button rounded-circle" ><i class="fab fa-whatsapp fa-lg"></i></button>
+        <button type="button" class="button rounded-circle" ><i class="fas fa-envelope fa-lg"></i></button>
+    </div>
+
+    <div id="escenas" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="escenas-lista">
+        </div>
+    </div>
+
+    <div class="modal" id="infoModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark">Info</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-dark">
+                    <p>Información de la propiedad.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="mapModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-dark">Mapa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-dark">
+                    <div style="width: 100%"><iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&height=400&hl=en&coord=-31.7316279,-60.5196147&q=La%20paz%20641%2C%20Parana%2C%20entre%20rios%2C%20argentina+(Inmobiliaria)&ie=UTF8&t=&z=14&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/en/measure-map-radius/">www.mapsdirections.info</a></iframe></div><br />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
